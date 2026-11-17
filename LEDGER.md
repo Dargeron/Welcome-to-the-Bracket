@@ -5,8 +5,8 @@
 
 - Entrants: **1,048,576** (20 rounds in total)
 - The Timeline: **Rounds 1–16**. The survivors of Round 16 are the Sixteen.
-- Encounters in canon: **12** · Characters on record: **23** · Deprecated: **0**
-- Next accession number: **E0013**
+- Encounters in canon: **13** · Characters on record: **25** · Deprecated: **0**
+- Next accession number: **E0014**
 
 ## The Sixteen (3 named, 13 unclaimed)
 
@@ -45,6 +45,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Golgo 13 _(no entry yet)_ | in play | R2 E0011 ✓ vs Sazae Fuguta | 1 (must survive); 3–16 (either) |
 | Inspector Zenigata _(no entry yet)_ | stopped in R9 (E0007) | R9 E0007 ✝ vs Lupin III | 1–8 (must survive) |
 | Johan Liebert | **one of the Sixteen** | R4 E0005 ✓ vs Anpanman | 1–3, 5–16 (must survive) |
+| Kiki _(no entry yet)_ | in play | R11 E0013 ✓ vs Ursula | 1–10 (must survive); 12–16 (either) |
 | Kino _(no entry yet)_ | in play | R6 E0008 ✓ vs Ginko | 1–5 (must survive); 7–16 (either) |
 | Light Yagami | in play | R1 E0001 ✓ vs Female Student 2 | 2–16 (either) |
 | Lupin III _(no entry yet)_ | in play | R9 E0007 ✓ vs Inspector Zenigata | 1–8 (must survive); 10–16 (either) |
@@ -58,6 +59,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Shinji Ikari _(no entry yet)_ | in play | R1 E0010 ✓ vs Misae Nohara | 2–16 (either) |
 | Soldier B | stopped in R1 (E0002) | R1 E0002 ✝ vs Orange | — (full) |
 | Third-String Catcher | stopped in R2 (E0003) | R2 E0003 ✝ vs Orange | 1 (must survive) |
+| Ursula _(no entry yet)_ | stopped in R11 (E0013) | R11 E0013 ✝ vs Kiki | 1–10 (must survive) |
 
 ## Encounters (in order of arrival)
 
@@ -75,6 +77,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | [E0010](entries/encounters/E0010-the-stairs-on-the-wrong-side.md) | 1 | The Stairs on the Wrong Side | Misae Nohara vs Shinji Ikari | Misae Nohara | under review (0/5) |
 | [E0011](entries/encounters/E0011-the-long-way-round-the-table.md) | 2 | The Long Way Round the Table | Sazae Fuguta vs Golgo 13 | Sazae Fuguta | under review (0/5) |
 | [E0012](entries/encounters/E0012-the-frog-and-the-gold.md) | 2 | The Frog and the Gold | No-Face vs Frog Worker (Spirited Away, the bathhouse) | Frog Worker (Spirited Away, the bathhouse) | under review (0/5) |
+| [E0013](entries/encounters/E0013-the-sea-she-could-not-finish.md) | 11 | The Sea She Could Not Finish | Kiki vs Ursula | Ursula | under review (0/5) |
 
 ## Rounds
 
@@ -90,7 +93,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | 8 | 8,192 | 4,096 | 0 |
 | 9 | 4,096 | 2,048 | 1 (E0007) |
 | 10 | 2,048 | 1,024 | 0 |
-| 11 | 1,024 | 512 | 0 |
+| 11 | 1,024 | 512 | 1 (E0013) |
 | 12 | 512 | 256 | 0 |
 | 13 | 256 | 128 | 0 |
 | 14 | 128 | 64 | 0 |

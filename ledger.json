@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0013",
+  "nextEncounterId": "E0014",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -597,6 +597,89 @@
       "full": false,
       "hasEntry": true,
       "url": "characters/johan-liebert/"
+    },
+    {
+      "name": "Kiki",
+      "slug": "kiki",
+      "aliases": [],
+      "source": "Kiki's Delivery Service (the thirteen-year-old witch with the black cat)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 11,
+          "id": "E0013",
+          "outcome": "survived",
+          "opponent": "Ursula"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/kiki/"
     },
     {
       "name": "Kino",
@@ -1357,6 +1440,69 @@
       "full": false,
       "hasEntry": true,
       "url": "characters/third-string-catcher/"
+    },
+    {
+      "name": "Ursula",
+      "slug": "ursula",
+      "aliases": [],
+      "source": "Kiki's Delivery Service (the painter who lives alone in the forest, on the hill above town)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 11,
+      "stoppedIn": "E0013",
+      "encounters": [
+        {
+          "round": 11,
+          "id": "E0013",
+          "outcome": "stopped",
+          "opponent": "Kiki"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/ursula/"
     }
   ],
   "encounters": [
@@ -1611,6 +1757,27 @@
       },
       "file": "entries/encounters/E0012-the-frog-and-the-gold.md",
       "url": "encounters/e0012/"
+    },
+    {
+      "id": "E0013",
+      "title": "The Sea She Could Not Finish",
+      "round": 11,
+      "characters": [
+        "Kiki",
+        "Ursula"
+      ],
+      "stopped": "Ursula",
+      "survived": "Kiki",
+      "author": "R. J. Halloran",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0013-the-sea-she-could-not-finish.md",
+      "url": "encounters/e0013/"
     }
   ],
   "rounds": [
@@ -1706,8 +1873,10 @@
       "round": 11,
       "entrants": 1024,
       "rooms": 512,
-      "written": 0,
-      "encounters": []
+      "written": 1,
+      "encounters": [
+        "E0013"
+      ]
     },
     {
       "round": 12,
