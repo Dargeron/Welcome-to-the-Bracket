@@ -5,8 +5,8 @@
 
 - Entrants: **1,048,576** (20 rounds in total)
 - The Timeline: **Rounds 1–16**. The survivors of Round 16 are the Sixteen.
-- Encounters in canon: **15** · Characters on record: **29** · Deprecated: **0**
-- Next accession number: **E0016**
+- Encounters in canon: **16** · Characters on record: **31** · Deprecated: **0**
+- Next accession number: **E0017**
 
 ## The Sixteen (3 named, 13 unclaimed)
 
@@ -37,6 +37,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 |-----------|--------|-----------|-------------|
 | Anpanman | stopped in R4 (E0005) | R4 E0005 ✝ vs Johan Liebert | 1–3 (must survive) |
 | Blank | **one of the Sixteen** | — | 1–16 (must survive) |
+| Ein _(no entry yet)_ | stopped in R3 (E0016) | R3 E0016 ✝ vs Jiji | 1–2 (must survive) |
 | Female Student 2 | stopped in R1 (E0001) | R1 E0001 ✝ vs Light Yagami | — (full) |
 | Frieren | **one of the Sixteen** | R3 E0004 ✓ vs Orange | 1–2, 4–16 (must survive) |
 | Frog Worker (Spirited Away, the bathhouse) _(no entry yet)_ | stopped in R2 (E0012) | R2 E0012 ✝ vs No-Face | 1 (must survive) |
@@ -44,6 +45,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Ginko _(no entry yet)_ | stopped in R6 (E0008) | R6 E0008 ✝ vs Kino | 1–5 (must survive) |
 | Golgo 13 _(no entry yet)_ | in play | R2 E0011 ✓ vs Sazae Fuguta | 1 (must survive); 3–16 (either) |
 | Inspector Zenigata _(no entry yet)_ | stopped in R9 (E0007) | R9 E0007 ✝ vs Lupin III | 1–8 (must survive) |
+| Jiji _(no entry yet)_ | in play | R3 E0016 ✓ vs Ein | 1–2 (must survive); 4–16 (either) |
 | Johan Liebert | **one of the Sixteen** | R4 E0005 ✓ vs Anpanman | 1–3, 5–16 (must survive) |
 | Kenshiro _(no entry yet)_ | in play | R2 E0014 ✓ vs Zeed Gang Member (Fist of the North Star, episode 1) | 1 (must survive); 3–16 (either) |
 | Kiki _(no entry yet)_ | in play | R11 E0013 ✓ vs Ursula | 1–10 (must survive); 12–16 (either) |
@@ -84,6 +86,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | [E0013](entries/encounters/E0013-the-sea-she-could-not-finish.md) | 11 | The Sea She Could Not Finish | Kiki vs Ursula | Ursula | under review (0/5) |
 | [E0014](entries/encounters/E0014-the-one-by-the-well.md) | 2 | The One by the Well | Kenshiro vs Zeed Gang Member (Fist of the North Star, episode 1) | Zeed Gang Member (Fist of the North Star, episode 1) | under review (0/5) |
 | [E0015](entries/encounters/E0015-red-corner-blue-corner.md) | 1 | Red Corner, Blue Corner | Spectator, Row 3 (boxing anime crowd) vs Spectator, Row 7 (boxing anime crowd) | Spectator, Row 3 (boxing anime crowd) | under review (0/5) |
+| [E0016](entries/encounters/E0016-play-dead.md) | 3 | Play Dead | Jiji vs Ein | Ein | under review (0/5) |
 
 ## Rounds
 
@@ -91,7 +94,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 |-------|----------|-------|---------|
 | 1 | 1,048,576 | 524,288 | 4 (E0001, E0002, E0010, E0015) |
 | 2 | 524,288 | 262,144 | 4 (E0003, E0011, E0012, E0014) |
-| 3 | 262,144 | 131,072 | 1 (E0004) |
+| 3 | 262,144 | 131,072 | 2 (E0004, E0016) |
 | 4 | 131,072 | 65,536 | 1 (E0005) |
 | 5 | 65,536 | 32,768 | 0 |
 | 6 | 32,768 | 16,384 | 3 (E0006, E0008, E0009) |
