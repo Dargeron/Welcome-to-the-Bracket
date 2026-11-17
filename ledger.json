@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0007",
+  "nextEncounterId": "E0008",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -306,6 +306,61 @@
       "url": "characters/fujiwara-no-sai/"
     },
     {
+      "name": "Inspector Zenigata",
+      "slug": "inspector-zenigata",
+      "aliases": [],
+      "source": "Lupin the Third (Koichi Zenigata of the ICPO, who has been trying to arrest him since 1971)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 9,
+      "stoppedIn": "E0007",
+      "encounters": [
+        {
+          "round": 9,
+          "id": "E0007",
+          "outcome": "stopped",
+          "opponent": "Lupin III"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/inspector-zenigata/"
+    },
+    {
       "name": "Johan Liebert",
       "slug": "johan-liebert",
       "aliases": [
@@ -474,6 +529,89 @@
       "full": false,
       "hasEntry": true,
       "url": "characters/light-yagami/"
+    },
+    {
+      "name": "Lupin III",
+      "slug": "lupin-iii",
+      "aliases": [],
+      "source": "Lupin the Third (the thief, grandson of Arsène Lupin)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 9,
+          "id": "E0007",
+          "outcome": "survived",
+          "opponent": "Inspector Zenigata"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/lupin-iii/"
     },
     {
       "name": "Meruem",
@@ -770,6 +908,27 @@
       },
       "file": "entries/encounters/E0006-the-hand.md",
       "url": "encounters/e0006/"
+    },
+    {
+      "id": "E0007",
+      "title": "Pending Transfer",
+      "round": 9,
+      "characters": [
+        "Lupin III",
+        "Inspector Zenigata"
+      ],
+      "stopped": "Inspector Zenigata",
+      "survived": "Lupin III",
+      "author": "Maren Itoh",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0007-pending-transfer.md",
+      "url": "encounters/e0007/"
     }
   ],
   "rounds": [
@@ -844,8 +1003,10 @@
       "round": 9,
       "entrants": 4096,
       "rooms": 2048,
-      "written": 0,
-      "encounters": []
+      "written": 1,
+      "encounters": [
+        "E0007"
+      ]
     },
     {
       "round": 10,
