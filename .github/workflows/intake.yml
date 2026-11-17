@@ -1,0 +1,104 @@
+# Processes submissions that arrive as GitHub issues:
+#   [Encounter] …  → validated against the rules, given the next accession number, filed
+#   [Vote] …       → appended to votes/; on the 5th vote, a median under 5 deprecates the entry
+#   [Character] …  → creates or replaces a character entry
+# Then replies on the issue, closes it, and republishes the site.
+#
+# Issue text is only ever read from the event file by scripts/intake.mjs,
+# never interpolated into shell commands.
+name: Intake
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+jobs:
+  intake:
+    if: >-
+      startsWith(github.event.issue.title, '[Encounter]') ||
+      startsWith(github.event.issue.title, '[Vote]') ||
+      startsWith(github.event.issue.title, '[Character]') ||
+      contains(github.event.issue.labels.*.name, 'encounter') ||
+      contains(github.event.issue.labels.*.name, 'vote') ||
+      contains(github.event.issue.labels.*.name, 'character')
+    runs-on: ubuntu-latest
+    outputs:
+      pushed: ${{ steps.process.outputs.pushed }}
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - id: process
+        name: Validate and file
+        run: |
+          git config user.name "bracket-archivist[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "pushed=false" >> "$GITHUB_OUTPUT"
+          # Optimistic concurrency: if another submission lands first, start
+          # over from the new state and validate again. That is what keeps
+          # "first come, first canon" honest.
+          for attempt in 1 2 3 4 5 6; do
+            git fetch origin "$DEFAULT_BRANCH"
+            git reset --hard "origin/$DEFAULT_BRANCH"
+            node scripts/intake.mjs issue "$GITHUB_EVENT_PATH" --result "$RUNNER_TEMP/result.json"
+            if [ "$(jq -r .ok "$RUNNER_TEMP/result.json")" != "true" ]; then break; fi
+            node scripts/ledger.mjs
+            git add -A
+            git commit -m "$(jq -r .commitMessage "$RUNNER_TEMP/result.json")"
+            if git push origin "HEAD:$DEFAULT_BRANCH"; then
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              break
+            fi
+            echo "Push raced with another change; retrying ($attempt)…"
+            sleep $(( (RANDOM % 7) + 3 ))
+          done
+      - name: Reply and close
+        if: always()
+        uses: actions/github-script@v7
+        env:
+          PUSHED: ${{ steps.process.outputs.pushed }}
+        with:
+          script: |
+            const fs = require('fs');
+            const p = `${process.env.RUNNER_TEMP}/result.json`;
+            const issue_number = context.issue.number;
+            if (!fs.existsSync(p)) {
+              await github.rest.issues.createComment({ ...context.repo, issue_number,
+                body: 'Something went wrong while processing this submission. A maintainer will take a look.\n\n---\n_Automated reply from the Bracket intake workflow._' });
+              return;
+            }
+            const r = JSON.parse(fs.readFileSync(p, 'utf8'));
+            if (r.skip) return;
+            let body = r.message;
+            let ok = r.ok;
+            if (r.ok && process.env.PUSHED !== 'true') {
+              ok = false;
+              body = 'This submission was valid, but the archive was changing too fast to save it. Please open it again.\n\n---\n_Automated reply from the Bracket intake workflow._';
+            }
+            await github.rest.issues.createComment({ ...context.repo, issue_number, body });
+            try {
+              await github.rest.issues.addLabels({ ...context.repo, issue_number, labels: [r.kind, ok ? 'accepted' : 'rejected'].filter(Boolean) });
+            } catch (e) { core.warning(`Could not label: ${e.message}`); }
+            await github.rest.issues.update({ ...context.repo, issue_number, state: 'closed', state_reason: ok ? 'completed' : 'not_planned' });
+
+  publish:
+    needs: intake
+    if: needs.intake.outputs.pushed == 'true'
+    uses: ./.github/workflows/publish.yml
+    permissions:
+      contents: write
+      pages: write
+      id-token: write

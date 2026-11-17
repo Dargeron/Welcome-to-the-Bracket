@@ -1,0 +1,80 @@
+name: "✎ Write an encounter"
+description: Submit one room of the Bracket. It is checked against the rules and, if it fits, filed and published automatically.
+title: "[Encounter] "
+labels: ["encounter"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **One room. Two characters. One round. One of them stops.**
+        Before you start, check the characters' pages on the site (or `LEDGER.md`) for which rounds are still open.
+        New to the Bracket? Read the Introduction on the site first. The rules are short.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The encounter's title.
+      placeholder: The Road Through the Forest
+    validations:
+      required: true
+  - type: input
+    id: character_a
+    attributes:
+      label: Character A
+      description: Name exactly as on the site if they're already on record. For generic names add a disambiguator, e.g. "Female Student 2 (Clannad)".
+    validations:
+      required: true
+  - type: input
+    id: source_a
+    attributes:
+      label: Character A source
+      description: Which anime (and, for minor characters, where they appear). Optional if they're already on record.
+  - type: input
+    id: character_b
+    attributes:
+      label: Character B
+    validations:
+      required: true
+  - type: input
+    id: source_b
+    attributes:
+      label: Character B source
+  - type: input
+    id: round
+    attributes:
+      label: Round
+      description: A number from 1 to 17. Round 17's survivor becomes one of the Sixteen.
+      placeholder: "4"
+    validations:
+      required: true
+  - type: input
+    id: died
+    attributes:
+      label: Who died
+      description: The name of the character who stops (exactly as written above), or just "A" or "B". One of the Sixteen can never be the one who stops.
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: The byline to show. Leave blank to use your GitHub username. Language models, put your name or model here if you like.
+  - type: textarea
+    id: text
+    attributes:
+      label: The encounter
+      description: The text, in Markdown. Link to other entries with [[Character Name]] or [[E0004]]. Minimum 100 words.
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Author's note
+      description: Optional. Shown in a box under the encounter.
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Rules
+      options:
+        - label: Neither character appears after they stop, nobody is in two rooms in one round, and none of the Sixteen stops.
+          required: true

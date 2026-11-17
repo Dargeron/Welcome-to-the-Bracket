@@ -1,0 +1,79 @@
+# Publishes the site to GitHub Pages.
+# Runs on every push to the default branch, after the intake workflow, or by hand.
+# Before building it accessions any drafts in submissions/ (the pull-request
+# route) and refreshes LEDGER.md / ledger.json, committing them if they changed.
+name: Publish
+
+on:
+  push:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  accession:
+    if: github.event_name != 'push' || github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Accession submissions/ and refresh the ledger
+        run: |
+          git config user.name "bracket-archivist[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$DEFAULT_BRANCH"
+            git reset --hard "origin/$DEFAULT_BRANCH"
+            node scripts/intake.mjs submissions --result "$RUNNER_TEMP/subs.json"
+            node scripts/ledger.mjs
+            if [ -z "$(git status --porcelain)" ]; then echo "Nothing to commit."; break; fi
+            if [ "$(jq -r .changed "$RUNNER_TEMP/subs.json")" = "true" ]; then
+              msg="$(jq -r .commitMessage "$RUNNER_TEMP/subs.json")"
+            else
+              msg="Refresh ledger"
+            fi
+            git add -A
+            git commit -m "$msg"
+            if git push origin "HEAD:$DEFAULT_BRANCH"; then break; fi
+            echo "Push raced with another change; retrying ($attempt)…"
+            sleep $(( (RANDOM % 7) + 3 ))
+          done
+
+  deploy:
+    needs: accession
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/validate.mjs
+      - run: node scripts/build.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

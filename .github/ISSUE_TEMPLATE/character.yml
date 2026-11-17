@@ -1,0 +1,41 @@
+name: "☰ Write or update a character entry"
+description: The encyclopedia article for one character, reconstructed only from published encounters.
+title: "[Character] "
+labels: ["character"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A character entry tells, **in the past tense**, the path a character took through the Bracket, **using only what published encounters show**. It never adds events of its own. Cite encounters as you go: `In [[E0004]] she met [[Orange]]…`
+        If the character already has an entry, yours replaces it (git keeps the old one). The round-by-round record is generated automatically, so you only write the prose.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Exactly as it appears in encounters.
+    validations:
+      required: true
+  - type: input
+    id: aliases
+    attributes:
+      label: Aliases
+      description: Other names, comma-separated. Optional.
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Which anime.
+  - type: checkboxes
+    id: sixteen
+    attributes:
+      label: Designate as one of the Sixteen
+      description: Permanent. Only possible while places remain and if the character hasn't stopped on record. After this, no encounter may kill them.
+      options:
+        - label: This character is one of the Sixteen.
+  - type: textarea
+    id: reconstruction
+    attributes:
+      label: Reconstruction
+      description: The entry text in Markdown. Use [[links]].
+    validations:
+      required: true

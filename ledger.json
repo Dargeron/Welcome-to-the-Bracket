@@ -1,0 +1,761 @@
+{
+  "generated": "Derived from entries/ by scripts/ledger.mjs. Do not edit by hand.",
+  "rules": {
+    "entrants": 2097152,
+    "totalRounds": 21,
+    "timeline": {
+      "firstRound": 1,
+      "finalRound": 17
+    },
+    "sixteen": 16,
+    "maxEncountersPerCharacter": 17,
+    "voting": {
+      "quorum": 5,
+      "removeIfMedianBelow": 5,
+      "min": 1,
+      "max": 10
+    }
+  },
+  "nextEncounterId": "E0006",
+  "sixteen": {
+    "named": 3,
+    "open": 13,
+    "members": [
+      {
+        "name": "Blank",
+        "how": "designated",
+        "via": null
+      },
+      {
+        "name": "Frieren",
+        "how": "designated",
+        "via": null
+      },
+      {
+        "name": "Johan Liebert",
+        "how": "designated",
+        "via": null
+      }
+    ]
+  },
+  "characters": [
+    {
+      "name": "Anpanman",
+      "slug": "anpanman",
+      "aliases": [],
+      "source": "Soreike! Anpanman",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 1,
+      "stoppedIn": "E0005",
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0005",
+          "outcome": "stopped",
+          "opponent": "Johan Liebert"
+        }
+      ],
+      "openRounds": [],
+      "full": true,
+      "hasEntry": true,
+      "url": "characters/anpanman/"
+    },
+    {
+      "name": "Blank",
+      "slug": "blank",
+      "aliases": [
+        "『　』",
+        "Kuuhaku"
+      ],
+      "source": "No Game No Life",
+      "status": "sixteen",
+      "sixteen": "designated",
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        },
+        {
+          "round": 11,
+          "mustSurvive": true
+        },
+        {
+          "round": 12,
+          "mustSurvive": true
+        },
+        {
+          "round": 13,
+          "mustSurvive": true
+        },
+        {
+          "round": 14,
+          "mustSurvive": true
+        },
+        {
+          "round": 15,
+          "mustSurvive": true
+        },
+        {
+          "round": 16,
+          "mustSurvive": true
+        },
+        {
+          "round": 17,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": true,
+      "url": "characters/blank/"
+    },
+    {
+      "name": "Female Student 2",
+      "slug": "female-student-2",
+      "aliases": [],
+      "source": "An unnamed school anime (episode eleven, a hallway)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 1,
+      "stoppedIn": "E0001",
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0001",
+          "outcome": "stopped",
+          "opponent": "Light Yagami"
+        }
+      ],
+      "openRounds": [],
+      "full": true,
+      "hasEntry": true,
+      "url": "characters/female-student-2/"
+    },
+    {
+      "name": "Frieren",
+      "slug": "frieren",
+      "aliases": [],
+      "source": "Frieren: Beyond Journey's End",
+      "status": "sixteen",
+      "sixteen": "designated",
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 3,
+          "id": "E0004",
+          "outcome": "survived",
+          "opponent": "Orange"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        },
+        {
+          "round": 11,
+          "mustSurvive": true
+        },
+        {
+          "round": 12,
+          "mustSurvive": true
+        },
+        {
+          "round": 13,
+          "mustSurvive": true
+        },
+        {
+          "round": 14,
+          "mustSurvive": true
+        },
+        {
+          "round": 15,
+          "mustSurvive": true
+        },
+        {
+          "round": 16,
+          "mustSurvive": true
+        },
+        {
+          "round": 17,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": true,
+      "url": "characters/frieren/"
+    },
+    {
+      "name": "Johan Liebert",
+      "slug": "johan-liebert",
+      "aliases": [
+        "Johan"
+      ],
+      "source": "Monster",
+      "status": "sixteen",
+      "sixteen": "designated",
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0005",
+          "outcome": "survived",
+          "opponent": "Anpanman"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        },
+        {
+          "round": 11,
+          "mustSurvive": true
+        },
+        {
+          "round": 12,
+          "mustSurvive": true
+        },
+        {
+          "round": 13,
+          "mustSurvive": true
+        },
+        {
+          "round": 14,
+          "mustSurvive": true
+        },
+        {
+          "round": 15,
+          "mustSurvive": true
+        },
+        {
+          "round": 16,
+          "mustSurvive": true
+        },
+        {
+          "round": 17,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": true,
+      "url": "characters/johan-liebert/"
+    },
+    {
+      "name": "Light Yagami",
+      "slug": "light-yagami",
+      "aliases": [
+        "The boy at the window"
+      ],
+      "source": "Death Note",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0001",
+          "outcome": "survived",
+          "opponent": "Female Student 2"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 2,
+          "mustSurvive": false
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        },
+        {
+          "round": 17,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": true,
+      "url": "characters/light-yagami/"
+    },
+    {
+      "name": "Orange",
+      "slug": "orange",
+      "aliases": [],
+      "source": "An unnamed music anime (the crowd at a concert, holding an orange light)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 3,
+      "stoppedIn": "E0004",
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0002",
+          "outcome": "survived",
+          "opponent": "Soldier B"
+        },
+        {
+          "round": 2,
+          "id": "E0003",
+          "outcome": "survived",
+          "opponent": "Third-String Catcher"
+        },
+        {
+          "round": 3,
+          "id": "E0004",
+          "outcome": "stopped",
+          "opponent": "Frieren"
+        }
+      ],
+      "openRounds": [],
+      "full": true,
+      "hasEntry": true,
+      "url": "characters/orange/"
+    },
+    {
+      "name": "Soldier B",
+      "slug": "soldier-b",
+      "aliases": [
+        "B"
+      ],
+      "source": "An unnamed war anime (one line)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 1,
+      "stoppedIn": "E0002",
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0002",
+          "outcome": "stopped",
+          "opponent": "Orange"
+        }
+      ],
+      "openRounds": [],
+      "full": true,
+      "hasEntry": true,
+      "url": "characters/soldier-b/"
+    },
+    {
+      "name": "Third-String Catcher",
+      "slug": "third-string-catcher",
+      "aliases": [],
+      "source": "An unnamed baseball anime about a pitcher",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 2,
+      "stoppedIn": "E0003",
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0003",
+          "outcome": "stopped",
+          "opponent": "Orange"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": true,
+      "url": "characters/third-string-catcher/"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "E0001",
+      "title": "Female Student 2",
+      "round": 1,
+      "characters": [
+        "Female Student 2",
+        "Light Yagami"
+      ],
+      "stopped": "Female Student 2",
+      "survived": "Light Yagami",
+      "author": "Founding text",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "founding",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0001-female-student-2.md",
+      "url": "encounters/e0001/"
+    },
+    {
+      "id": "E0002",
+      "title": "Orange",
+      "round": 1,
+      "characters": [
+        "Orange",
+        "Soldier B"
+      ],
+      "stopped": "Soldier B",
+      "survived": "Orange",
+      "author": "Founding text",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "founding",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0002-orange.md",
+      "url": "encounters/e0002/"
+    },
+    {
+      "id": "E0003",
+      "title": "The Outfield Wall",
+      "round": 2,
+      "characters": [
+        "Orange",
+        "Third-String Catcher"
+      ],
+      "stopped": "Third-String Catcher",
+      "survived": "Orange",
+      "author": "Founding text",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "founding",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0003-the-outfield-wall.md",
+      "url": "encounters/e0003/"
+    },
+    {
+      "id": "E0004",
+      "title": "The Road Through the Forest",
+      "round": 3,
+      "characters": [
+        "Orange",
+        "Frieren"
+      ],
+      "stopped": "Orange",
+      "survived": "Frieren",
+      "author": "Founding text",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "founding",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0004-the-road-through-the-forest.md",
+      "url": "encounters/e0004/"
+    },
+    {
+      "id": "E0005",
+      "title": "Anpanman and the Hungry Man",
+      "round": 1,
+      "characters": [
+        "Anpanman",
+        "Johan Liebert"
+      ],
+      "stopped": "Anpanman",
+      "survived": "Johan Liebert",
+      "author": "Founding text",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "founding",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0005-anpanman-and-the-hungry-man.md",
+      "url": "encounters/e0005/"
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "entrants": 2097152,
+      "rooms": 1048576,
+      "written": 3,
+      "encounters": [
+        "E0001",
+        "E0002",
+        "E0005"
+      ]
+    },
+    {
+      "round": 2,
+      "entrants": 1048576,
+      "rooms": 524288,
+      "written": 1,
+      "encounters": [
+        "E0003"
+      ]
+    },
+    {
+      "round": 3,
+      "entrants": 524288,
+      "rooms": 262144,
+      "written": 1,
+      "encounters": [
+        "E0004"
+      ]
+    },
+    {
+      "round": 4,
+      "entrants": 262144,
+      "rooms": 131072,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 5,
+      "entrants": 131072,
+      "rooms": 65536,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 6,
+      "entrants": 65536,
+      "rooms": 32768,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 7,
+      "entrants": 32768,
+      "rooms": 16384,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 8,
+      "entrants": 16384,
+      "rooms": 8192,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 9,
+      "entrants": 8192,
+      "rooms": 4096,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 10,
+      "entrants": 4096,
+      "rooms": 2048,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 11,
+      "entrants": 2048,
+      "rooms": 1024,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 12,
+      "entrants": 1024,
+      "rooms": 512,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 13,
+      "entrants": 512,
+      "rooms": 256,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 14,
+      "entrants": 256,
+      "rooms": 128,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 15,
+      "entrants": 128,
+      "rooms": 64,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 16,
+      "entrants": 64,
+      "rooms": 32,
+      "written": 0,
+      "encounters": []
+    },
+    {
+      "round": 17,
+      "entrants": 32,
+      "rooms": 16,
+      "written": 0,
+      "encounters": []
+    }
+  ],
+  "deprecated": []
+}

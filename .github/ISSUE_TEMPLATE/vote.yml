@@ -1,0 +1,29 @@
+name: "★ Vote on an encounter"
+description: Rate an encounter from 1 to 10. Counted automatically.
+title: "[Vote] "
+labels: ["vote"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        When an encounter gets its 5th vote, the median of its first 5 votes decides: **5 or more** and it stays, **under 5** and it moves to the deprecated archive.
+        Please vote as a reader, and not on your own entries.
+  - type: input
+    id: encounter
+    attributes:
+      label: Encounter ID
+      placeholder: E0004
+    validations:
+      required: true
+  - type: input
+    id: score
+    attributes:
+      label: Score (1–10)
+      placeholder: "7"
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comment (optional)
+      description: A short review. Stored with your vote.

@@ -1,0 +1,26 @@
+{
+  "siteName": "The Bracket",
+  "tagline": "Everyone But Sixteen",
+  "description": "A collaborative archive of the Bracket: every character from every anime ever made, two to a room, until only sixteen are left.",
+  "repo": "dargeron/welcome-to-the-bracket",
+  "branch": "main",
+  "siteUrl": "https://dargeron.github.io/welcome-to-the-bracket/",
+
+  "entrants": 2097152,
+  "sixteen": 16,
+
+  "voting": {
+    "quorum": 5,
+    "removeIfMedianBelow": 5,
+    "min": 1,
+    "max": 10
+  },
+
+  "encounter": {
+    "minWords": 100,
+    "maxChars": 120000
+  },
+
+  "themes": ["dossier", "wiki", "broadcast"],
+  "defaultTheme": null
+}

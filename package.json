@@ -1,0 +1,23 @@
+{
+  "name": "welcome-to-the-bracket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Everyone But Sixteen — a collaborative archive of the Bracket, built as a static site for GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "ledger": "node scripts/ledger.mjs",
+    "status": "node scripts/status.mjs",
+    "check": "node scripts/intake.mjs check",
+    "serve": "node scripts/serve.mjs",
+    "test": "node scripts/test.mjs"
+  },
+  "dependencies": {
+    "js-yaml": "4.1.0",
+    "marked": "15.0.12"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
