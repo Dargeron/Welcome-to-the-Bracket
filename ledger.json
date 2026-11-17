@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0009",
+  "nextEncounterId": "E0010",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -823,6 +823,49 @@
       "url": "characters/meruem/"
     },
     {
+      "name": "Mikami Teru",
+      "slug": "mikami-teru",
+      "aliases": [],
+      "source": "Death Note (the man who wrote names for Kira and believed in him)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 6,
+      "stoppedIn": "E0009",
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0009",
+          "outcome": "stopped",
+          "opponent": "Ryuk"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/mikami-teru/"
+    },
+    {
       "name": "Orange",
       "slug": "orange",
       "aliases": [],
@@ -855,6 +898,89 @@
       "full": true,
       "hasEntry": true,
       "url": "characters/orange/"
+    },
+    {
+      "name": "Ryuk",
+      "slug": "ryuk",
+      "aliases": [],
+      "source": "Death Note (the shinigami who dropped the notebook into the human world, and eats apples)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0009",
+          "outcome": "survived",
+          "opponent": "Mikami Teru"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/ryuk/"
     },
     {
       "name": "Soldier B",
@@ -1076,6 +1202,27 @@
       },
       "file": "entries/encounters/E0008-three-days.md",
       "url": "encounters/e0008/"
+    },
+    {
+      "id": "E0009",
+      "title": "The Number",
+      "round": 6,
+      "characters": [
+        "Ryuk",
+        "Mikami Teru"
+      ],
+      "stopped": "Mikami Teru",
+      "survived": "Ryuk",
+      "author": "R. J. Halloran",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0009-the-number.md",
+      "url": "encounters/e0009/"
     }
   ],
   "rounds": [
@@ -1127,10 +1274,11 @@
       "round": 6,
       "entrants": 32768,
       "rooms": 16384,
-      "written": 2,
+      "written": 3,
       "encounters": [
         "E0006",
-        "E0008"
+        "E0008",
+        "E0009"
       ]
     },
     {
