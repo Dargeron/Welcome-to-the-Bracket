@@ -56,7 +56,7 @@ function infobox(title, rows, { portrait = '', cls = '' } = {}) {
 }
 
 const components = {
-  newcomer: (ctx) => `<aside class="newcomer" role="note"><span class="newcomer-q">New to the Bracket?</span> <span class="newcomer-a">2,097,152 characters, two to a room, one walks out. <a href="${ctx.href('introduction/')}">Start with the Introduction</a> · <a href="${ctx.href('')}">watch the trailer</a></span></aside>`,
+  newcomer: (ctx) => `<aside class="newcomer" role="note"><span class="newcomer-q">New to the Bracket?</span> <span class="newcomer-a">${fmtInt(ctx.site.config.entrants)} characters, two to a room, one walks out. <a href="${ctx.href('introduction/')}">Start with the Introduction</a> · <a href="${ctx.href('')}">watch the trailer</a></span></aside>`,
 
   encounterHero(ctx, e) {
     const C = ctx.c;

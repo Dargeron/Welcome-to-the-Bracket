@@ -43,7 +43,7 @@ body:
     id: round
     attributes:
       label: Round
-      description: A number from 1 to 17. Round 17's survivor becomes one of the Sixteen.
+      description: A number from 1 to 16. Round 16's survivor becomes one of the Sixteen.
       placeholder: "4"
     validations:
       required: true

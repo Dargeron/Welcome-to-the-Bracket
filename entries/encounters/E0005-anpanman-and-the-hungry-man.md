@@ -1,7 +1,7 @@
 ---
 id: E0005
 title: Anpanman and the Hungry Man
-round: 1
+round: 4
 characters:
   - name: Anpanman
     source: Soreike! Anpanman
@@ -11,9 +11,6 @@ died: Anpanman
 author: Founding text
 submitted: "2026-11-17"
 founding: true
-note: >-
-  The founding text does not state the round of this room. It is filed under Round 1 because
-  Anpanman "woke up" here and had just been given the Address, which is how a first room begins.
 ---
 
 *In one room [[E0004|the question]] was the whole of it. One of the two there had about four hundred words and meant every one. This is the room as he had it.*

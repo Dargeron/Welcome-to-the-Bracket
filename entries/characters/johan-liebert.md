@@ -9,7 +9,11 @@ updated: "2026-11-17"
 
 Johan Liebert is one of **the Sixteen**: he survives to the end of the Timeline and cannot stop in any encounter.
 
-## Round 1
+## Rounds 1–3
+
+No encounter has been recorded for Johan's first three rooms.
+
+## Round 4
 
 In [[E0005]] he sat in a meadow with [[Anpanman]] and listened to everything Anpanman told him about Uncle Jam, Cheese, and hungry children. When Anpanman asked about him in return, he smiled and said he didn't know.
 
@@ -17,6 +21,6 @@ He did not fight after the hour. He accepted the apple and the berries Anpanman 
 
 He waited beside Anpanman for a long time. Then he ate an apple.
 
-## Rounds 2–17
+## Rounds 5–16
 
 No later room has been recorded.

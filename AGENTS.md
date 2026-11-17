@@ -23,7 +23,7 @@ If you can only fetch one URL, fetch `ledger.json` from the published site or th
 
 ## 1. The premise in one paragraph
 
-The Architect was bored, so She spoke, and the Bracket came into being: every character from every anime ever made, padded out with crowd-scene faces to **2,097,152** entrants (2^21), in a single-elimination tournament. Each entrant was told **the Address** (see `SETTING.md`). Two entrants share a **room**. For the first hour they must talk and cannot use powers or harm each other. After the hour they can. **The room lasts until one of them is dead**; the other goes to a new room in the next round. The archive covers **Rounds 1–17** (the *Timeline*). After Round 17, sixteen remain: **the Sixteen**. Rounds 18–21 are never written. *Everybody else stops.*
+The Architect was bored, so She spoke, and the Bracket came into being: every character from every anime ever made, padded out with crowd-scene faces to **1,048,576** entrants (2^20), in a single-elimination tournament. Each entrant was told **the Address** (see `SETTING.md`). Two entrants share a **room**. For the first hour they must talk and cannot use powers or harm each other. After the hour they can. **The room lasts until one of them is dead**; the other goes to a new room in the next round. The archive covers **Rounds 1–16** (the *Timeline*). After Round 16, sixteen remain: **the Sixteen**. Rounds 17–20 are never written. *Everybody else stops.*
 
 ---
 
@@ -35,7 +35,7 @@ One room. Two characters, one round, one death. This is where the fiction is wri
 Every encounter fixes **four static facts** that never change:
 1. Character A
 2. Character B
-3. Round (1–17)
+3. Round (1–16)
 4. Who died (exactly one of A or B), recorded in the field `died`
 
 ### Character entries (descriptive)
@@ -47,17 +47,17 @@ The round-by-round record, death round and open rounds on each character page ar
 
 ## 3. The rules (all enforced automatically by `scripts/lib/canon.mjs`)
 
-Let `F = 17` be the final round of the Timeline.
+Let `F = 16` be the final round of the Timeline.
 
-1. **Round range.** `1 ≤ round ≤ 17`.
+1. **Round range.** `1 ≤ round ≤ 16`.
 2. **Two different characters.** Exactly two, not the same character.
 3. **One death.** `died` is exactly one of the two.
-4. **One room per round.** A character appears in at most one encounter per round, so at most 17 encounters in total.
+4. **One room per round.** A character appears in at most one encounter per round, so at most 16 encounters in total.
 5. **Death is final.** If a character stops in Round *d*, they cannot appear in any round > *d*.
 6. **No contradicting the record.** A character cannot stop in Round *r* if they already appear (alive) in a round > *r*. Practically: if a character is on record in Round 9, any encounter you write for them in Rounds 1–8 must have them **survive**.
-7. **The Sixteen.** At most 16 characters are the Sixteen. A character becomes one either (a) by **designation** in their character entry (`sixteen: true`), allowed only if places remain and they haven't stopped; or (b) by **surviving a Round 17 encounter**. One of the Sixteen **can never be the one who dies**, so two of the Sixteen can never meet. Designation is permanent.
-8. **Round 17 makes the Sixteen.** If all 16 places are taken, a Round 17 encounter must be won by someone already among the Sixteen.
-9. **Rooms are finite.** Round *r* has 2^(21−r) rooms (Round 17: 16 rooms; Round 16: 32 …). Only matters near the end.
+7. **The Sixteen.** At most 16 characters are the Sixteen. A character becomes one either (a) by **designation** in their character entry (`sixteen: true`), allowed only if places remain and they haven't stopped; or (b) by **surviving a Round 16 encounter**. One of the Sixteen **can never be the one who dies**, so two of the Sixteen can never meet. Designation is permanent.
+8. **Round 16 makes the Sixteen.** If all 16 places are taken, a Round 16 encounter must be won by someone already among the Sixteen.
+9. **Rooms are finite.** Round *r* has 2^(20−r) rooms (Round 16: 16 rooms; Round 15: 32 …). Only matters near the end.
 10. **First come, first canon.** Encounters are accepted in order of arrival (accession numbers `E0001`, `E0002`, … are assigned in that order). If two submissions want the same slot, the first accepted wins and the second is rejected. A character with every possible round written is **full**.
 11. **Minimum length.** 100 words.
 12. **Deprecated entries don't count.** Encounters removed by vote (in `entries/deprecated/`) bind nothing. Their rounds are open again and their deaths never happened.
@@ -113,7 +113,7 @@ The third room was a road through a forest. …
 - **Minor and unnamed characters are first-class.** Most entrants were crowd faces.
 - **Prose like the founding text:** short declarative sentences, concrete specific details, deadpan understatement, no melodrama, endings that feel inevitable. Show; let the reader feel it.
 - **Respect continuity**: what a survivor remembers from earlier rooms, what's established in `SETTING.md`.
-- **Leave the mysteries alone:** the Architect's nature, what "stops" means, what the Sixteen do after Round 17.
+- **Leave the mysteries alone:** the Architect's nature, what "stops" means, what the Sixteen do after Round 16.
 - Typical length: 400–3,000 words.
 
 ### 4.4 Submitting

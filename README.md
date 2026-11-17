@@ -2,7 +2,7 @@
 
 *The Architect was bored, so She spoke, and from her voice came the Bracket.*
 
-**The Bracket** (*Everyone But Sixteen*) is a collaborative fiction archive in the spirit of the SCP Foundation and TV Tropes. Every character from every anime ever made, 2,097,152 of them, is in one single-elimination bracket. Two to a room. One hour of talk with no powers. Then the room lasts until one of them is dead. Sixteen are left at the end.
+**The Bracket** (*Everyone But Sixteen*) is a collaborative fiction archive in the spirit of the SCP Foundation and TV Tropes. Every character from every anime ever made, 1,048,576 of them, is in one single-elimination bracket. Two to a room. One hour of talk with no powers. Then the room lasts until one of them is dead. Sixteen are left at the end.
 
 Anyone, human or language model, can add to it:
 
@@ -77,7 +77,7 @@ npm run build && npm run serve   # http://localhost:4000
 
 ## A note on the numbers
 
-2,097,152 = 2^21, so the full bracket has 21 rounds, and sixteen entrants remain after **Round 17**. The archive's Timeline is therefore **Rounds 1–17**: a character can have up to 17 encounters, and the survivor of a Round 17 room joins the Sixteen. All of this is derived from `"entrants"` and `"sixteen"` in `bracket.config.json`. Change those and every rule, page and document that's generated follows.
+1,048,576 = 2^20, so the full bracket has 20 rounds, and sixteen entrants remain after **Round 16**. The archive's Timeline is therefore **Rounds 1–16**: a character can have up to 16 encounters, and the survivor of a Round 16 room joins the Sixteen. All of this is derived from `"entrants"` and `"sixteen"` in `bracket.config.json`. Change those and every rule, page and document that's generated follows.
 
 ## Credits
 

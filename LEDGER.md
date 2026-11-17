@@ -3,8 +3,8 @@
 > **Generated file.** This is the current state of the archive, derived from `entries/` by `scripts/ledger.mjs`.
 > It is rebuilt automatically after every accepted change. Do not edit it by hand.
 
-- Entrants: **2,097,152** (21 rounds in total)
-- The Timeline: **Rounds 1–17**. The survivors of Round 17 are the Sixteen.
+- Entrants: **1,048,576** (20 rounds in total)
+- The Timeline: **Rounds 1–16**. The survivors of Round 16 are the Sixteen.
 - Encounters in canon: **5** · Characters on record: **9** · Deprecated: **0**
 - Next accession number: **E0006**
 
@@ -35,12 +35,12 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 
 | Character | Status | On record | Open rounds |
 |-----------|--------|-----------|-------------|
-| Anpanman | stopped in R1 (E0005) | R1 E0005 ✝ vs Johan Liebert | — (full) |
-| Blank | **one of the Sixteen** | — | 1–17 (must survive) |
+| Anpanman | stopped in R4 (E0005) | R4 E0005 ✝ vs Johan Liebert | 1–3 (must survive) |
+| Blank | **one of the Sixteen** | — | 1–16 (must survive) |
 | Female Student 2 | stopped in R1 (E0001) | R1 E0001 ✝ vs Light Yagami | — (full) |
-| Frieren | **one of the Sixteen** | R3 E0004 ✓ vs Orange | 1–2, 4–17 (must survive) |
-| Johan Liebert | **one of the Sixteen** | R1 E0005 ✓ vs Anpanman | 2–17 (must survive) |
-| Light Yagami | in play | R1 E0001 ✓ vs Female Student 2 | 2–17 (either) |
+| Frieren | **one of the Sixteen** | R3 E0004 ✓ vs Orange | 1–2, 4–16 (must survive) |
+| Johan Liebert | **one of the Sixteen** | R4 E0005 ✓ vs Anpanman | 1–3, 5–16 (must survive) |
+| Light Yagami | in play | R1 E0001 ✓ vs Female Student 2 | 2–16 (either) |
 | Orange | stopped in R3 (E0004) | R1 E0002 ✓ vs Soldier B<br>R2 E0003 ✓ vs Third-String Catcher<br>R3 E0004 ✝ vs Frieren | — (full) |
 | Soldier B | stopped in R1 (E0002) | R1 E0002 ✝ vs Orange | — (full) |
 | Third-String Catcher | stopped in R2 (E0003) | R2 E0003 ✝ vs Orange | 1 (must survive) |
@@ -53,29 +53,28 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | [E0002](entries/encounters/E0002-orange.md) | 1 | Orange | Orange vs Soldier B | Soldier B | founding |
 | [E0003](entries/encounters/E0003-the-outfield-wall.md) | 2 | The Outfield Wall | Orange vs Third-String Catcher | Third-String Catcher | founding |
 | [E0004](entries/encounters/E0004-the-road-through-the-forest.md) | 3 | The Road Through the Forest | Orange vs Frieren | Orange | founding |
-| [E0005](entries/encounters/E0005-anpanman-and-the-hungry-man.md) | 1 | Anpanman and the Hungry Man | Anpanman vs Johan Liebert | Anpanman | founding |
+| [E0005](entries/encounters/E0005-anpanman-and-the-hungry-man.md) | 4 | Anpanman and the Hungry Man | Anpanman vs Johan Liebert | Anpanman | founding |
 
 ## Rounds
 
 | Round | Entrants | Rooms | Written |
 |-------|----------|-------|---------|
-| 1 | 2,097,152 | 1,048,576 | 3 (E0001, E0002, E0005) |
-| 2 | 1,048,576 | 524,288 | 1 (E0003) |
-| 3 | 524,288 | 262,144 | 1 (E0004) |
-| 4 | 262,144 | 131,072 | 0 |
-| 5 | 131,072 | 65,536 | 0 |
-| 6 | 65,536 | 32,768 | 0 |
-| 7 | 32,768 | 16,384 | 0 |
-| 8 | 16,384 | 8,192 | 0 |
-| 9 | 8,192 | 4,096 | 0 |
-| 10 | 4,096 | 2,048 | 0 |
-| 11 | 2,048 | 1,024 | 0 |
-| 12 | 1,024 | 512 | 0 |
-| 13 | 512 | 256 | 0 |
-| 14 | 256 | 128 | 0 |
-| 15 | 128 | 64 | 0 |
-| 16 | 64 | 32 | 0 |
-| 17 | 32 | 16 | 0 |
+| 1 | 1,048,576 | 524,288 | 2 (E0001, E0002) |
+| 2 | 524,288 | 262,144 | 1 (E0003) |
+| 3 | 262,144 | 131,072 | 1 (E0004) |
+| 4 | 131,072 | 65,536 | 1 (E0005) |
+| 5 | 65,536 | 32,768 | 0 |
+| 6 | 32,768 | 16,384 | 0 |
+| 7 | 16,384 | 8,192 | 0 |
+| 8 | 8,192 | 4,096 | 0 |
+| 9 | 4,096 | 2,048 | 0 |
+| 10 | 2,048 | 1,024 | 0 |
+| 11 | 1,024 | 512 | 0 |
+| 12 | 512 | 256 | 0 |
+| 13 | 256 | 128 | 0 |
+| 14 | 128 | 64 | 0 |
+| 15 | 64 | 32 | 0 |
+| 16 | 32 | 16 | 0 |
 
 ## Deprecated
 

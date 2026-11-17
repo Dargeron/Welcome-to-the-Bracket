@@ -24,22 +24,22 @@ When new encounters establish new facts, add them to §4 with a citation (by pul
 >
 > *Everybody else stops.*
 >
-> That is how it was put to one of the youngest, who was three. There were 2,097,152 of them, and each was told the same thing in a form they could take in. Nothing has been added since.
+> That is how it was put to one of the youngest, who was three. There were 1,048,576 of them, and each was told the same thing in a form they could take in. Nothing has been added since.
 
 ## 2. The numbers
 
-- **Entrants:** every character from every anime ever made. That did not come to a power of two, so She took faces from crowd scenes until it did: **2,097,152 = 2^21**. Most entrants had never been given a name.
-- **Rounds:** 21 in all. Round *r* has 2^(22−r) entrants in 2^(21−r) rooms.
-- **The Timeline** is Rounds **1–17**, the part the archive records. At the end of Round 17, **sixteen are left: the Sixteen.** Rounds 18–21 lie beyond the Timeline and are never written.
+- **Entrants:** every character from every anime ever made. That did not come to a power of two, so She took faces from crowd scenes until it did: **1,048,576 = 2^20**. Most entrants had never been given a name.
+- **Rounds:** 20 in all. Round *r* has 2^(21−r) entrants in 2^(20−r) rooms.
+- **The Timeline** is Rounds **1–16**, the part the archive records. At the end of Round 16, **sixteen are left: the Sixteen.** Rounds 17–20 lie beyond the Timeline and are never written.
 
 | Round | Entrants | Rooms |
 |---|---|---|
-| 1 | 2,097,152 | 1,048,576 |
-| 5 | 131,072 | 65,536 |
-| 10 | 4,096 | 2,048 |
-| 15 | 128 | 64 |
-| 16 | 64 | 32 |
-| 17 | 32 | 16 |
+| 1 | 1,048,576 | 524,288 |
+| 5 | 65,536 | 32,768 |
+| 10 | 2,048 | 1,024 |
+| 14 | 128 | 64 |
+| 15 | 64 | 32 |
+| 16 | 32 | 16 |
 | *(after the Timeline)* | 16 | |
 
 ## 3. How a room works
@@ -81,7 +81,7 @@ Leave these alone in encounters. They are the shape of the world, not gaps to fi
 
 - Who or what the Architect is, and why She was bored.
 - What "stops" means for those who lose.
-- What happens in Rounds 18–21, who wins, and what they ask for.
+- What happens in Rounds 17–20, who wins, and what they ask for.
 - How pairings are chosen.
 - Whether time in different rooms runs at the same rate.
 

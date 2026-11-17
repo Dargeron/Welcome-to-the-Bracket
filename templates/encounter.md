@@ -2,7 +2,7 @@
 # Encounter draft. For a pull request, save a copy as submissions/<date>-<slug>.md.
 # Leave out `id`: it's assigned in order of arrival when the PR is merged.
 title: Your Title
-round: 1                      # 1–17
+round: 1                      # 1–16
 characters:
   - name: Character A          # canonical name if already on record (see LEDGER.md)
     source: Which anime        # optional if already on record

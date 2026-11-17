@@ -43,8 +43,8 @@ function test(name, fn) {
 console.log(`Rules engine (Timeline = Rounds 1–${config.finalRound}, ${config.sixteen} Sixteen)`);
 
 test('derives the Timeline from the entrant count', () => {
-  assert.equal(config.totalRounds, 21);
-  assert.equal(config.finalRound, 17);
+  assert.equal(config.totalRounds, 20);
+  assert.equal(config.finalRound, 16);
 });
 
 test('an empty archive is consistent', () => {
@@ -126,11 +126,12 @@ test('Sixteen designation cannot be removed by an edit', () => {
   assert.equal(r.ok, false);
 });
 
-test('round 17 has only 16 rooms', () => {
-  const es = Array.from({ length: 16 }, (_, i) => enc(`E${String(i + 1).padStart(4, '0')}`, 17, `W${i}`, `L${i}`, `L${i}`));
+test('the final round has only 16 rooms', () => {
+  const F = config.finalRound;
+  const es = Array.from({ length: 16 }, (_, i) => enc(`E${String(i + 1).padStart(4, '0')}`, F, `W${i}`, `L${i}`, `L${i}`));
   const c = canon(es);
   assert.deepEqual(analyze(c).errors, []);
-  const r = tryAccept(c, draft(17, 'W0', 'Z', 'Z'));
+  const r = tryAccept(c, draft(F, 'W0', 'Z', 'Z'));
   assert.equal(r.ok, false);
 });
 

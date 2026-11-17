@@ -1,14 +1,14 @@
 {
   "generated": "Derived from entries/ by scripts/ledger.mjs. Do not edit by hand.",
   "rules": {
-    "entrants": 2097152,
-    "totalRounds": 21,
+    "entrants": 1048576,
+    "totalRounds": 20,
     "timeline": {
       "firstRound": 1,
-      "finalRound": 17
+      "finalRound": 16
     },
     "sixteen": 16,
-    "maxEncountersPerCharacter": 17,
+    "maxEncountersPerCharacter": 16,
     "voting": {
       "quorum": 5,
       "removeIfMedianBelow": 5,
@@ -46,18 +46,31 @@
       "source": "Soreike! Anpanman",
       "status": "stopped",
       "sixteen": null,
-      "stoppedInRound": 1,
+      "stoppedInRound": 4,
       "stoppedIn": "E0005",
       "encounters": [
         {
-          "round": 1,
+          "round": 4,
           "id": "E0005",
           "outcome": "stopped",
           "opponent": "Johan Liebert"
         }
       ],
-      "openRounds": [],
-      "full": true,
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
       "hasEntry": true,
       "url": "characters/anpanman/"
     },
@@ -137,10 +150,6 @@
         },
         {
           "round": 16,
-          "mustSurvive": true
-        },
-        {
-          "round": 17,
           "mustSurvive": true
         }
       ],
@@ -247,10 +256,6 @@
         {
           "round": 16,
           "mustSurvive": true
-        },
-        {
-          "round": 17,
-          "mustSurvive": true
         }
       ],
       "full": false,
@@ -270,7 +275,7 @@
       "stoppedIn": null,
       "encounters": [
         {
-          "round": 1,
+          "round": 4,
           "id": "E0005",
           "outcome": "survived",
           "opponent": "Anpanman"
@@ -278,15 +283,15 @@
       ],
       "openRounds": [
         {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
           "round": 2,
           "mustSurvive": true
         },
         {
           "round": 3,
-          "mustSurvive": true
-        },
-        {
-          "round": 4,
           "mustSurvive": true
         },
         {
@@ -335,10 +340,6 @@
         },
         {
           "round": 16,
-          "mustSurvive": true
-        },
-        {
-          "round": 17,
           "mustSurvive": true
         }
       ],
@@ -424,10 +425,6 @@
         },
         {
           "round": 16,
-          "mustSurvive": false
-        },
-        {
-          "round": 17,
           "mustSurvive": false
         }
       ],
@@ -609,7 +606,7 @@
     {
       "id": "E0005",
       "title": "Anpanman and the Hungry Man",
-      "round": 1,
+      "round": 4,
       "characters": [
         "Anpanman",
         "Johan Liebert"
@@ -631,19 +628,18 @@
   "rounds": [
     {
       "round": 1,
-      "entrants": 2097152,
-      "rooms": 1048576,
-      "written": 3,
+      "entrants": 1048576,
+      "rooms": 524288,
+      "written": 2,
       "encounters": [
         "E0001",
-        "E0002",
-        "E0005"
+        "E0002"
       ]
     },
     {
       "round": 2,
-      "entrants": 1048576,
-      "rooms": 524288,
+      "entrants": 524288,
+      "rooms": 262144,
       "written": 1,
       "encounters": [
         "E0003"
@@ -651,8 +647,8 @@
     },
     {
       "round": 3,
-      "entrants": 524288,
-      "rooms": 262144,
+      "entrants": 262144,
+      "rooms": 131072,
       "written": 1,
       "encounters": [
         "E0004"
@@ -660,97 +656,92 @@
     },
     {
       "round": 4,
-      "entrants": 262144,
-      "rooms": 131072,
-      "written": 0,
-      "encounters": []
+      "entrants": 131072,
+      "rooms": 65536,
+      "written": 1,
+      "encounters": [
+        "E0005"
+      ]
     },
     {
       "round": 5,
-      "entrants": 131072,
-      "rooms": 65536,
-      "written": 0,
-      "encounters": []
-    },
-    {
-      "round": 6,
       "entrants": 65536,
       "rooms": 32768,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 7,
+      "round": 6,
       "entrants": 32768,
       "rooms": 16384,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 8,
+      "round": 7,
       "entrants": 16384,
       "rooms": 8192,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 9,
+      "round": 8,
       "entrants": 8192,
       "rooms": 4096,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 10,
+      "round": 9,
       "entrants": 4096,
       "rooms": 2048,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 11,
+      "round": 10,
       "entrants": 2048,
       "rooms": 1024,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 12,
+      "round": 11,
       "entrants": 1024,
       "rooms": 512,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 13,
+      "round": 12,
       "entrants": 512,
       "rooms": 256,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 14,
+      "round": 13,
       "entrants": 256,
       "rooms": 128,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 15,
+      "round": 14,
       "entrants": 128,
       "rooms": 64,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 16,
+      "round": 15,
       "entrants": 64,
       "rooms": 32,
       "written": 0,
       "encounters": []
     },
     {
-      "round": 17,
+      "round": 16,
       "entrants": 32,
       "rooms": 16,
       "written": 0,

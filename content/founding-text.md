@@ -16,7 +16,7 @@ The Architect was bored, so She spoke, and from her voice came the Bracket.
 
 *Everybody else stops.*
 
-That is how it was put to one of the youngest, who was three. There were 2,097,152 of them, and each was told the same thing in a form they could take in. Nothing has been added since.
+That is how it was put to one of the youngest, who was three. There were 1,048,576 of them, and each was told the same thing in a form they could take in. Nothing has been added since.
 
 Every character from every anime ever made in one Bracket. That did not come to a number that halves cleanly, so She took faces from the crowd scenes until it did. Most of the entrants had never been given a name.
 

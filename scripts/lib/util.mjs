@@ -103,7 +103,7 @@ export function today() {
   return new Date().toISOString().slice(0, 10);
 }
 
-/** "Rounds 2–5, 7, 9–17" */
+/** "Rounds 2–5, 7, 9–16" */
 export function rangeList(nums) {
   const s = [...new Set(nums)].sort((a, b) => a - b);
   const parts = [];

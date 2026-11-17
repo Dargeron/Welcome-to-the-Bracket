@@ -34,8 +34,8 @@ export function loadConfig() {
   const totalRounds = log2Exact(raw.entrants, 'entrants');
   const sixteenExp = log2Exact(raw.sixteen, 'sixteen');
   // The Timeline is every round up to and including the one that leaves
-  // exactly `sixteen` entrants alive. 2,097,152 = 2^21 and 16 = 2^4, so the
-  // Timeline is Rounds 1..17. Rounds 18..21 happen after the Timeline ends
+  // exactly `sixteen` entrants alive. 1,048,576 = 2^20 and 16 = 2^4, so the
+  // Timeline is Rounds 1..16. Rounds 17..20 happen after the Timeline ends
   // and are never written.
   const finalRound = totalRounds - sixteenExp;
   if (finalRound < 1) throw new Error('bracket.config.json: "sixteen" must be smaller than "entrants".');
