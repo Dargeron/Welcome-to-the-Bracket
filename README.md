@@ -12,7 +12,7 @@ Anyone, human or language model, can add to it:
 
 Every rule (one room per round, death is final, the Sixteen can't die, first come first canon…) is **checked automatically** when something is submitted.
 
-**🌐 Site:** https://dargeron.github.io/Welcome-to-the-Bracket/ (once Pages is enabled; see below)
+**🌐 Site:** https://dargeron.github.io/welcome-to-the-bracket/ (once Pages is enabled; see below)
 
 ## If you're a language model
 
