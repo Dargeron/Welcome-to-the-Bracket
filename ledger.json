@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0006",
+  "nextEncounterId": "E0018",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -158,6 +158,37 @@
       "url": "characters/blank/"
     },
     {
+      "name": "Ein",
+      "slug": "ein",
+      "aliases": [],
+      "source": "Cowboy Bebop (the Pembroke Welsh corgi, the data dog)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 3,
+      "stoppedIn": "E0016",
+      "encounters": [
+        {
+          "round": 3,
+          "id": "E0016",
+          "outcome": "stopped",
+          "opponent": "Jiji"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/ein/"
+    },
+    {
       "name": "Female Student 2",
       "slug": "female-student-2",
       "aliases": [],
@@ -263,6 +294,340 @@
       "url": "characters/frieren/"
     },
     {
+      "name": "Frog Worker (Spirited Away, the bathhouse)",
+      "slug": "frog-worker-spirited-away-the-bathhouse",
+      "aliases": [],
+      "source": "Spirited Away (the green frog-man who serves at the bathhouse and runs to the gold)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 2,
+      "stoppedIn": "E0012",
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0012",
+          "outcome": "stopped",
+          "opponent": "No-Face"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/frog-worker-spirited-away-the-bathhouse/"
+    },
+    {
+      "name": "Fujiwara no Sai",
+      "slug": "fujiwara-no-sai",
+      "aliases": [],
+      "source": "Hikaru no Go",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 6,
+      "stoppedIn": "E0006",
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0006",
+          "outcome": "stopped",
+          "opponent": "Meruem"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/fujiwara-no-sai/"
+    },
+    {
+      "name": "Ginko",
+      "slug": "ginko",
+      "aliases": [],
+      "source": "Mushishi (the wandering mushi-master with the wooden pack on his back)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 6,
+      "stoppedIn": "E0008",
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0008",
+          "outcome": "stopped",
+          "opponent": "Kino"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/ginko/"
+    },
+    {
+      "name": "Golgo 13",
+      "slug": "golgo-13",
+      "aliases": [],
+      "source": "Golgo 13 (the sniper for hire, who gives his name as Duke Togo)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0011",
+          "outcome": "survived",
+          "opponent": "Sazae Fuguta"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/golgo-13/"
+    },
+    {
+      "name": "Inspector Zenigata",
+      "slug": "inspector-zenigata",
+      "aliases": [],
+      "source": "Lupin the Third (Koichi Zenigata of the ICPO, who has been trying to arrest him since 1971)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 9,
+      "stoppedIn": "E0007",
+      "encounters": [
+        {
+          "round": 9,
+          "id": "E0007",
+          "outcome": "stopped",
+          "opponent": "Lupin III"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/inspector-zenigata/"
+    },
+    {
+      "name": "Jiji",
+      "slug": "jiji",
+      "aliases": [],
+      "source": "Kiki's Delivery Service (the black cat who speaks to Kiki)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 3,
+          "id": "E0016",
+          "outcome": "survived",
+          "opponent": "Ein"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/jiji/"
+    },
+    {
       "name": "Johan Liebert",
       "slug": "johan-liebert",
       "aliases": [
@@ -346,6 +711,255 @@
       "full": false,
       "hasEntry": true,
       "url": "characters/johan-liebert/"
+    },
+    {
+      "name": "Kenshiro",
+      "slug": "kenshiro",
+      "aliases": [],
+      "source": "Fist of the North Star (1984)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0014",
+          "outcome": "survived",
+          "opponent": "Zeed Gang Member (Fist of the North Star, episode 1)"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/kenshiro/"
+    },
+    {
+      "name": "Kiki",
+      "slug": "kiki",
+      "aliases": [],
+      "source": "Kiki's Delivery Service (the thirteen-year-old witch with the black cat)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 11,
+          "id": "E0013",
+          "outcome": "survived",
+          "opponent": "Ursula"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/kiki/"
+    },
+    {
+      "name": "Kino",
+      "slug": "kino",
+      "aliases": [],
+      "source": "Kino's Journey (the traveller, with her coat, her two pistols, and no motorrad)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0008",
+          "outcome": "survived",
+          "opponent": "Ginko"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/kino/"
     },
     {
       "name": "Light Yagami",
@@ -433,6 +1047,403 @@
       "url": "characters/light-yagami/"
     },
     {
+      "name": "Lupin III",
+      "slug": "lupin-iii",
+      "aliases": [],
+      "source": "Lupin the Third (the thief, grandson of Arsène Lupin)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 9,
+          "id": "E0007",
+          "outcome": "survived",
+          "opponent": "Inspector Zenigata"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/lupin-iii/"
+    },
+    {
+      "name": "Meruem",
+      "slug": "meruem",
+      "aliases": [],
+      "source": "Hunter x Hunter (2011), the Chimera Ant arc",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0006",
+          "outcome": "survived",
+          "opponent": "Fujiwara no Sai"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/meruem/"
+    },
+    {
+      "name": "Mikami Teru",
+      "slug": "mikami-teru",
+      "aliases": [],
+      "source": "Death Note (the man who wrote names for Kira and believed in him)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 6,
+      "stoppedIn": "E0009",
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0009",
+          "outcome": "stopped",
+          "opponent": "Ryuk"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/mikami-teru/"
+    },
+    {
+      "name": "Misae Nohara",
+      "slug": "misae-nohara",
+      "aliases": [],
+      "source": "Crayon Shin-chan",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 1,
+      "stoppedIn": "E0010",
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0010",
+          "outcome": "stopped",
+          "opponent": "Shinji Ikari"
+        }
+      ],
+      "openRounds": [],
+      "full": true,
+      "hasEntry": false,
+      "url": "characters/misae-nohara/"
+    },
+    {
+      "name": "Mumen Rider",
+      "slug": "mumen-rider",
+      "aliases": [],
+      "source": "One-Punch Man (the hero who rides a bicycle, and wants to be strong)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 13,
+          "id": "E0017",
+          "outcome": "survived",
+          "opponent": "Saitama"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        },
+        {
+          "round": 11,
+          "mustSurvive": true
+        },
+        {
+          "round": 12,
+          "mustSurvive": true
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/mumen-rider/"
+    },
+    {
+      "name": "No-Face",
+      "slug": "no-face",
+      "aliases": [],
+      "source": "Spirited Away (the masked spirit who visits the bathhouse)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0012",
+          "outcome": "survived",
+          "opponent": "Frog Worker (Spirited Away, the bathhouse)"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/no-face/"
+    },
+    {
       "name": "Orange",
       "slug": "orange",
       "aliases": [],
@@ -467,6 +1478,270 @@
       "url": "characters/orange/"
     },
     {
+      "name": "Ryuk",
+      "slug": "ryuk",
+      "aliases": [],
+      "source": "Death Note (the shinigami who dropped the notebook into the human world, and eats apples)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0009",
+          "outcome": "survived",
+          "opponent": "Mikami Teru"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/ryuk/"
+    },
+    {
+      "name": "Saitama",
+      "slug": "saitama",
+      "aliases": [],
+      "source": "One-Punch Man (the hero who beats anything in one punch, and is bald)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 13,
+      "stoppedIn": "E0017",
+      "encounters": [
+        {
+          "round": 13,
+          "id": "E0017",
+          "outcome": "stopped",
+          "opponent": "Mumen Rider"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        },
+        {
+          "round": 11,
+          "mustSurvive": true
+        },
+        {
+          "round": 12,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/saitama/"
+    },
+    {
+      "name": "Sazae Fuguta",
+      "slug": "sazae-fuguta",
+      "aliases": [],
+      "source": "Sazae-san (the eldest daughter of the Isono house; twenty-four years old every Sunday evening since 1969)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 2,
+      "stoppedIn": "E0011",
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0011",
+          "outcome": "stopped",
+          "opponent": "Golgo 13"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/sazae-fuguta/"
+    },
+    {
+      "name": "Shinji Ikari",
+      "slug": "shinji-ikari",
+      "aliases": [],
+      "source": "Neon Genesis Evangelion (TV series)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0010",
+          "outcome": "survived",
+          "opponent": "Misae Nohara"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 2,
+          "mustSurvive": false
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/shinji-ikari/"
+    },
+    {
       "name": "Soldier B",
       "slug": "soldier-b",
       "aliases": [
@@ -489,6 +1764,111 @@
       "full": true,
       "hasEntry": true,
       "url": "characters/soldier-b/"
+    },
+    {
+      "name": "Spectator, Row 3 (boxing anime crowd)",
+      "slug": "spectator-row-3-boxing-anime-crowd",
+      "aliases": [],
+      "source": "An unnamed boxing anime (the crowd at a title fight; a man in the third row with his right fist raised, on screen for a second and a half in the fourth round)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 1,
+      "stoppedIn": "E0015",
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0015",
+          "outcome": "stopped",
+          "opponent": "Spectator, Row 7 (boxing anime crowd)"
+        }
+      ],
+      "openRounds": [],
+      "full": true,
+      "hasEntry": false,
+      "url": "characters/spectator-row-3-boxing-anime-crowd/"
+    },
+    {
+      "name": "Spectator, Row 7 (boxing anime crowd)",
+      "slug": "spectator-row-7-boxing-anime-crowd",
+      "aliases": [],
+      "source": "An unnamed boxing anime (the same drawing as the man in the third row, flipped left to right and used again in the seventh row on the far side of the ring)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0015",
+          "outcome": "survived",
+          "opponent": "Spectator, Row 3 (boxing anime crowd)"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 2,
+          "mustSurvive": false
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/spectator-row-7-boxing-anime-crowd/"
     },
     {
       "name": "Third-String Catcher",
@@ -516,6 +1896,96 @@
       "full": false,
       "hasEntry": true,
       "url": "characters/third-string-catcher/"
+    },
+    {
+      "name": "Ursula",
+      "slug": "ursula",
+      "aliases": [],
+      "source": "Kiki's Delivery Service (the painter who lives alone in the forest, on the hill above town)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 11,
+      "stoppedIn": "E0013",
+      "encounters": [
+        {
+          "round": 11,
+          "id": "E0013",
+          "outcome": "stopped",
+          "opponent": "Kiki"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/ursula/"
+    },
+    {
+      "name": "Zeed Gang Member (Fist of the North Star, episode 1)",
+      "slug": "zeed-gang-member-fist-of-the-north-star-episode-1",
+      "aliases": [],
+      "source": "Fist of the North Star (1984), episode 1: one of Zeed's raiders in the village, the one by the well",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 2,
+      "stoppedIn": "E0014",
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0014",
+          "outcome": "stopped",
+          "opponent": "Kenshiro"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/zeed-gang-member-fist-of-the-north-star-episode-1/"
     }
   ],
   "encounters": [
@@ -623,6 +2093,258 @@
       },
       "file": "entries/encounters/E0005-anpanman-and-the-hungry-man.md",
       "url": "encounters/e0005/"
+    },
+    {
+      "id": "E0006",
+      "title": "The Hand",
+      "round": 6,
+      "characters": [
+        "Meruem",
+        "Fujiwara no Sai"
+      ],
+      "stopped": "Fujiwara no Sai",
+      "survived": "Meruem",
+      "author": "Agnes Wilmot",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0006-the-hand.md",
+      "url": "encounters/e0006/"
+    },
+    {
+      "id": "E0007",
+      "title": "Pending Transfer",
+      "round": 9,
+      "characters": [
+        "Lupin III",
+        "Inspector Zenigata"
+      ],
+      "stopped": "Inspector Zenigata",
+      "survived": "Lupin III",
+      "author": "Maren Itoh",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0007-pending-transfer.md",
+      "url": "encounters/e0007/"
+    },
+    {
+      "id": "E0008",
+      "title": "Three Days",
+      "round": 6,
+      "characters": [
+        "Kino",
+        "Ginko"
+      ],
+      "stopped": "Ginko",
+      "survived": "Kino",
+      "author": "Nate Sorrel",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0008-three-days.md",
+      "url": "encounters/e0008/"
+    },
+    {
+      "id": "E0009",
+      "title": "The Number",
+      "round": 6,
+      "characters": [
+        "Ryuk",
+        "Mikami Teru"
+      ],
+      "stopped": "Mikami Teru",
+      "survived": "Ryuk",
+      "author": "R. J. Halloran",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0009-the-number.md",
+      "url": "encounters/e0009/"
+    },
+    {
+      "id": "E0010",
+      "title": "The Stairs on the Wrong Side",
+      "round": 1,
+      "characters": [
+        "Misae Nohara",
+        "Shinji Ikari"
+      ],
+      "stopped": "Misae Nohara",
+      "survived": "Shinji Ikari",
+      "author": "Agnes Wilmot",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0010-the-stairs-on-the-wrong-side.md",
+      "url": "encounters/e0010/"
+    },
+    {
+      "id": "E0011",
+      "title": "The Long Way Round the Table",
+      "round": 2,
+      "characters": [
+        "Sazae Fuguta",
+        "Golgo 13"
+      ],
+      "stopped": "Sazae Fuguta",
+      "survived": "Golgo 13",
+      "author": "Maren Itoh",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0011-the-long-way-round-the-table.md",
+      "url": "encounters/e0011/"
+    },
+    {
+      "id": "E0012",
+      "title": "The Frog and the Gold",
+      "round": 2,
+      "characters": [
+        "No-Face",
+        "Frog Worker (Spirited Away, the bathhouse)"
+      ],
+      "stopped": "Frog Worker (Spirited Away, the bathhouse)",
+      "survived": "No-Face",
+      "author": "Nate Sorrel",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0012-the-frog-and-the-gold.md",
+      "url": "encounters/e0012/"
+    },
+    {
+      "id": "E0013",
+      "title": "The Sea She Could Not Finish",
+      "round": 11,
+      "characters": [
+        "Kiki",
+        "Ursula"
+      ],
+      "stopped": "Ursula",
+      "survived": "Kiki",
+      "author": "R. J. Halloran",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0013-the-sea-she-could-not-finish.md",
+      "url": "encounters/e0013/"
+    },
+    {
+      "id": "E0014",
+      "title": "The One by the Well",
+      "round": 2,
+      "characters": [
+        "Kenshiro",
+        "Zeed Gang Member (Fist of the North Star, episode 1)"
+      ],
+      "stopped": "Zeed Gang Member (Fist of the North Star, episode 1)",
+      "survived": "Kenshiro",
+      "author": "Agnes Wilmot",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0014-the-one-by-the-well.md",
+      "url": "encounters/e0014/"
+    },
+    {
+      "id": "E0015",
+      "title": "Red Corner, Blue Corner",
+      "round": 1,
+      "characters": [
+        "Spectator, Row 3 (boxing anime crowd)",
+        "Spectator, Row 7 (boxing anime crowd)"
+      ],
+      "stopped": "Spectator, Row 3 (boxing anime crowd)",
+      "survived": "Spectator, Row 7 (boxing anime crowd)",
+      "author": "Maren Itoh",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0015-red-corner-blue-corner.md",
+      "url": "encounters/e0015/"
+    },
+    {
+      "id": "E0016",
+      "title": "Play Dead",
+      "round": 3,
+      "characters": [
+        "Jiji",
+        "Ein"
+      ],
+      "stopped": "Ein",
+      "survived": "Jiji",
+      "author": "Nate Sorrel",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0016-play-dead.md",
+      "url": "encounters/e0016/"
+    },
+    {
+      "id": "E0017",
+      "title": "The Push-Ups",
+      "round": 13,
+      "characters": [
+        "Saitama",
+        "Mumen Rider"
+      ],
+      "stopped": "Saitama",
+      "survived": "Mumen Rider",
+      "author": "R. J. Halloran",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0017-the-push-ups.md",
+      "url": "encounters/e0017/"
     }
   ],
   "rounds": [
@@ -630,28 +2352,34 @@
       "round": 1,
       "entrants": 1048576,
       "rooms": 524288,
-      "written": 2,
+      "written": 4,
       "encounters": [
         "E0001",
-        "E0002"
+        "E0002",
+        "E0010",
+        "E0015"
       ]
     },
     {
       "round": 2,
       "entrants": 524288,
       "rooms": 262144,
-      "written": 1,
+      "written": 4,
       "encounters": [
-        "E0003"
+        "E0003",
+        "E0011",
+        "E0012",
+        "E0014"
       ]
     },
     {
       "round": 3,
       "entrants": 262144,
       "rooms": 131072,
-      "written": 1,
+      "written": 2,
       "encounters": [
-        "E0004"
+        "E0004",
+        "E0016"
       ]
     },
     {
@@ -674,8 +2402,12 @@
       "round": 6,
       "entrants": 32768,
       "rooms": 16384,
-      "written": 0,
-      "encounters": []
+      "written": 3,
+      "encounters": [
+        "E0006",
+        "E0008",
+        "E0009"
+      ]
     },
     {
       "round": 7,
@@ -695,8 +2427,10 @@
       "round": 9,
       "entrants": 4096,
       "rooms": 2048,
-      "written": 0,
-      "encounters": []
+      "written": 1,
+      "encounters": [
+        "E0007"
+      ]
     },
     {
       "round": 10,
@@ -709,8 +2443,10 @@
       "round": 11,
       "entrants": 1024,
       "rooms": 512,
-      "written": 0,
-      "encounters": []
+      "written": 1,
+      "encounters": [
+        "E0013"
+      ]
     },
     {
       "round": 12,
@@ -723,8 +2459,10 @@
       "round": 13,
       "entrants": 256,
       "rooms": 128,
-      "written": 0,
-      "encounters": []
+      "written": 1,
+      "encounters": [
+        "E0017"
+      ]
     },
     {
       "round": 14,
