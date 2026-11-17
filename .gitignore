@@ -3,3 +3,6 @@ _site/
 _preview/
 .DS_Store
 *.log
+
+# Scratch file writers use to claim characters/rounds during a writing session
+submissions/_claims.txt
