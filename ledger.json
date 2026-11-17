@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0006",
+  "nextEncounterId": "E0007",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -263,6 +263,49 @@
       "url": "characters/frieren/"
     },
     {
+      "name": "Fujiwara no Sai",
+      "slug": "fujiwara-no-sai",
+      "aliases": [],
+      "source": "Hikaru no Go",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 6,
+      "stoppedIn": "E0006",
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0006",
+          "outcome": "stopped",
+          "opponent": "Meruem"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/fujiwara-no-sai/"
+    },
+    {
       "name": "Johan Liebert",
       "slug": "johan-liebert",
       "aliases": [
@@ -431,6 +474,89 @@
       "full": false,
       "hasEntry": true,
       "url": "characters/light-yagami/"
+    },
+    {
+      "name": "Meruem",
+      "slug": "meruem",
+      "aliases": [],
+      "source": "Hunter x Hunter (2011), the Chimera Ant arc",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 6,
+          "id": "E0006",
+          "outcome": "survived",
+          "opponent": "Fujiwara no Sai"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/meruem/"
     },
     {
       "name": "Orange",
@@ -623,6 +749,27 @@
       },
       "file": "entries/encounters/E0005-anpanman-and-the-hungry-man.md",
       "url": "encounters/e0005/"
+    },
+    {
+      "id": "E0006",
+      "title": "The Hand",
+      "round": 6,
+      "characters": [
+        "Meruem",
+        "Fujiwara no Sai"
+      ],
+      "stopped": "Fujiwara no Sai",
+      "survived": "Meruem",
+      "author": "Agnes Wilmot",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0006-the-hand.md",
+      "url": "encounters/e0006/"
     }
   ],
   "rounds": [
@@ -674,8 +821,10 @@
       "round": 6,
       "entrants": 32768,
       "rooms": 16384,
-      "written": 0,
-      "encounters": []
+      "written": 1,
+      "encounters": [
+        "E0006"
+      ]
     },
     {
       "round": 7,
