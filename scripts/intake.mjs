@@ -92,8 +92,8 @@ if (cmd === 'issue') {
       commitMessage: `Accession ${e.id}: ${e.title} (Round ${e.round}) — closes #${issue.number}`,
       message:
         `Accepted as **${e.id}: ${e.title}**, Round ${e.round}. ${e.characters.map((c) => c.name).join(' and ')} met; **${e.died}** stopped.\n\n` +
-        `It will appear at ${url} within a few minutes. It is now under review: once ${config.voting.quorum} votes are in, ` +
-        `it stays if their median is ${config.voting.removeIfMedianBelow} or higher.` +
+        `It will appear at ${url} within a few minutes. From its ${config.voting.quorum}th vote on, it stays in the archive ` +
+        `only while the median of all its votes is ${config.voting.removeIfMedianBelow} or higher.` +
         FOOTER,
     });
   }
