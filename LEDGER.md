@@ -5,8 +5,8 @@
 
 - Entrants: **1,048,576** (20 rounds in total)
 - The Timeline: **Rounds 1–16**. The survivors of Round 16 are the Sixteen.
-- Encounters in canon: **14** · Characters on record: **27** · Deprecated: **0**
-- Next accession number: **E0015**
+- Encounters in canon: **15** · Characters on record: **29** · Deprecated: **0**
+- Next accession number: **E0016**
 
 ## The Sixteen (3 named, 13 unclaimed)
 
@@ -59,6 +59,8 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Sazae Fuguta _(no entry yet)_ | stopped in R2 (E0011) | R2 E0011 ✝ vs Golgo 13 | 1 (must survive) |
 | Shinji Ikari _(no entry yet)_ | in play | R1 E0010 ✓ vs Misae Nohara | 2–16 (either) |
 | Soldier B | stopped in R1 (E0002) | R1 E0002 ✝ vs Orange | — (full) |
+| Spectator, Row 3 (boxing anime crowd) _(no entry yet)_ | stopped in R1 (E0015) | R1 E0015 ✝ vs Spectator, Row 7 (boxing anime crowd) | — (full) |
+| Spectator, Row 7 (boxing anime crowd) _(no entry yet)_ | in play | R1 E0015 ✓ vs Spectator, Row 3 (boxing anime crowd) | 2–16 (either) |
 | Third-String Catcher | stopped in R2 (E0003) | R2 E0003 ✝ vs Orange | 1 (must survive) |
 | Ursula _(no entry yet)_ | stopped in R11 (E0013) | R11 E0013 ✝ vs Kiki | 1–10 (must survive) |
 | Zeed Gang Member (Fist of the North Star, episode 1) _(no entry yet)_ | stopped in R2 (E0014) | R2 E0014 ✝ vs Kenshiro | 1 (must survive) |
@@ -81,12 +83,13 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | [E0012](entries/encounters/E0012-the-frog-and-the-gold.md) | 2 | The Frog and the Gold | No-Face vs Frog Worker (Spirited Away, the bathhouse) | Frog Worker (Spirited Away, the bathhouse) | under review (0/5) |
 | [E0013](entries/encounters/E0013-the-sea-she-could-not-finish.md) | 11 | The Sea She Could Not Finish | Kiki vs Ursula | Ursula | under review (0/5) |
 | [E0014](entries/encounters/E0014-the-one-by-the-well.md) | 2 | The One by the Well | Kenshiro vs Zeed Gang Member (Fist of the North Star, episode 1) | Zeed Gang Member (Fist of the North Star, episode 1) | under review (0/5) |
+| [E0015](entries/encounters/E0015-red-corner-blue-corner.md) | 1 | Red Corner, Blue Corner | Spectator, Row 3 (boxing anime crowd) vs Spectator, Row 7 (boxing anime crowd) | Spectator, Row 3 (boxing anime crowd) | under review (0/5) |
 
 ## Rounds
 
 | Round | Entrants | Rooms | Written |
 |-------|----------|-------|---------|
-| 1 | 1,048,576 | 524,288 | 3 (E0001, E0002, E0010) |
+| 1 | 1,048,576 | 524,288 | 4 (E0001, E0002, E0010, E0015) |
 | 2 | 524,288 | 262,144 | 4 (E0003, E0011, E0012, E0014) |
 | 3 | 262,144 | 131,072 | 1 (E0004) |
 | 4 | 131,072 | 65,536 | 1 (E0005) |

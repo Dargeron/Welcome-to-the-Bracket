@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0015",
+  "nextEncounterId": "E0016",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -1498,6 +1498,111 @@
       "url": "characters/soldier-b/"
     },
     {
+      "name": "Spectator, Row 3 (boxing anime crowd)",
+      "slug": "spectator-row-3-boxing-anime-crowd",
+      "aliases": [],
+      "source": "An unnamed boxing anime (the crowd at a title fight; a man in the third row with his right fist raised, on screen for a second and a half in the fourth round)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 1,
+      "stoppedIn": "E0015",
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0015",
+          "outcome": "stopped",
+          "opponent": "Spectator, Row 7 (boxing anime crowd)"
+        }
+      ],
+      "openRounds": [],
+      "full": true,
+      "hasEntry": false,
+      "url": "characters/spectator-row-3-boxing-anime-crowd/"
+    },
+    {
+      "name": "Spectator, Row 7 (boxing anime crowd)",
+      "slug": "spectator-row-7-boxing-anime-crowd",
+      "aliases": [],
+      "source": "An unnamed boxing anime (the same drawing as the man in the third row, flipped left to right and used again in the seventh row on the far side of the ring)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0015",
+          "outcome": "survived",
+          "opponent": "Spectator, Row 3 (boxing anime crowd)"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 2,
+          "mustSurvive": false
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/spectator-row-7-boxing-anime-crowd/"
+    },
+    {
       "name": "Third-String Catcher",
       "slug": "third-string-catcher",
       "aliases": [],
@@ -1909,6 +2014,27 @@
       },
       "file": "entries/encounters/E0014-the-one-by-the-well.md",
       "url": "encounters/e0014/"
+    },
+    {
+      "id": "E0015",
+      "title": "Red Corner, Blue Corner",
+      "round": 1,
+      "characters": [
+        "Spectator, Row 3 (boxing anime crowd)",
+        "Spectator, Row 7 (boxing anime crowd)"
+      ],
+      "stopped": "Spectator, Row 3 (boxing anime crowd)",
+      "survived": "Spectator, Row 7 (boxing anime crowd)",
+      "author": "Maren Itoh",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0015-red-corner-blue-corner.md",
+      "url": "encounters/e0015/"
     }
   ],
   "rounds": [
@@ -1916,11 +2042,12 @@
       "round": 1,
       "entrants": 1048576,
       "rooms": 524288,
-      "written": 3,
+      "written": 4,
       "encounters": [
         "E0001",
         "E0002",
-        "E0010"
+        "E0010",
+        "E0015"
       ]
     },
     {
