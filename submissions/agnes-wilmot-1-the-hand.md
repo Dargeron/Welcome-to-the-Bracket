@@ -44,7 +44,7 @@ Meruem looked at the bowls. It was the first minute of the hour and he did not w
 
 Sai pointed with his fan.
 
-So they played. Meruem placed Sai's stones where the fan said and his own where he liked, and they talked across the board, because they had to and then because they wanted to. Sai told him about the Hand of God, the move that nobody had played yet. He told him about the other teacher at court who had said he cheated, and about the river afterwards, and how he had not been able to stop being there because the move was still out in front of him somewhere. He told it lightly, as an old story.
+So they played. Meruem placed Sai's stones where the fan said and his own where he liked, and they talked across the board. Sai told him about the Hand of God, the move that nobody had played yet. He told him about the other teacher at court who had said he cheated, and about the river afterwards, and how he had not been able to stop being there because the move was still out in front of him somewhere. He told it lightly, as an old story.
 
 "And if you win all of this," Meruem said, "that is what you will ask for. To play one move."
 
@@ -76,7 +76,7 @@ He did not like being taught. Sai taught him anyway, the same way he had taught 
 
 In the fourth year Meruem won a game. Sai cried again. Meruem said that it was unbecoming, and Sai said that most things worth doing were.
 
-Meruem did not sleep much. He ate the fish and the persimmons. He had stopped eating people before he ever came to the Bracket, and there was nobody here to eat in any case except Sai, which was not possible, and which he would not have done. At night he sat on the veranda steps and thought about where the girl might be, and how many rooms she would have had to come through, and how she would have done it. She could not have hurt anyone. He thought she had probably stopped in the first room, apologising. Then he would think of how she sat at the board, and that she had never once lost a game that mattered, and he could not decide. Sai saw him there some nights and did not ask.
+Meruem did not sleep much. He ate the fish and the persimmons. There was nobody here to eat except Sai, which was not possible, and which he found he would not have done anyway. At night he sat on the veranda steps and thought about where the girl might be, and how many rooms she would have had to come through, and how she would have done it. She could not have hurt anyone. He thought she had probably stopped in the first room, apologising. Then he would think of how she sat at the board, and that she had never once lost a game that mattered, and he could not decide. Sai saw him there some nights and did not ask.
 
 Her name was Komugi. He told Sai in the eleventh year. Sai said it was a good name, and asked what she smelled like, because Meruem had mentioned that she sniffed, and Meruem found that he remembered exactly.
 
@@ -88,7 +88,7 @@ He knew it was wrong by everything Sai had shown him. It gave away a group. It w
 
 Sai's fan stopped moving.
 
-He looked at the stone for most of an hour. Then he looked at the rest of the board, and Meruem saw him go down the lines one by one and come back up them. It was not wrong. It was better than anything Sai would have played there, and Sai had been playing there since before the city he died in had finished being built.
+He looked at the stone for most of an hour. Then he looked at the rest of the board, and Meruem saw him go down the lines one by one and come back up them. It was not wrong. It was better than anything Sai would have played there, and Sai had been playing there for a thousand years.
 
 "Where did you get that?" said Sai.
 
