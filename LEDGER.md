@@ -5,8 +5,8 @@
 
 - Entrants: **1,048,576** (20 rounds in total)
 - The Timeline: **Rounds 1–16**. The survivors of Round 16 are the Sixteen.
-- Encounters in canon: **10** · Characters on record: **19** · Deprecated: **0**
-- Next accession number: **E0011**
+- Encounters in canon: **11** · Characters on record: **21** · Deprecated: **0**
+- Next accession number: **E0012**
 
 ## The Sixteen (3 named, 13 unclaimed)
 
@@ -41,6 +41,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Frieren | **one of the Sixteen** | R3 E0004 ✓ vs Orange | 1–2, 4–16 (must survive) |
 | Fujiwara no Sai _(no entry yet)_ | stopped in R6 (E0006) | R6 E0006 ✝ vs Meruem | 1–5 (must survive) |
 | Ginko _(no entry yet)_ | stopped in R6 (E0008) | R6 E0008 ✝ vs Kino | 1–5 (must survive) |
+| Golgo 13 _(no entry yet)_ | in play | R2 E0011 ✓ vs Sazae Fuguta | 1 (must survive); 3–16 (either) |
 | Inspector Zenigata _(no entry yet)_ | stopped in R9 (E0007) | R9 E0007 ✝ vs Lupin III | 1–8 (must survive) |
 | Johan Liebert | **one of the Sixteen** | R4 E0005 ✓ vs Anpanman | 1–3, 5–16 (must survive) |
 | Kino _(no entry yet)_ | in play | R6 E0008 ✓ vs Ginko | 1–5 (must survive); 7–16 (either) |
@@ -51,6 +52,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Misae Nohara _(no entry yet)_ | stopped in R1 (E0010) | R1 E0010 ✝ vs Shinji Ikari | — (full) |
 | Orange | stopped in R3 (E0004) | R1 E0002 ✓ vs Soldier B<br>R2 E0003 ✓ vs Third-String Catcher<br>R3 E0004 ✝ vs Frieren | — (full) |
 | Ryuk _(no entry yet)_ | in play | R6 E0009 ✓ vs Mikami Teru | 1–5 (must survive); 7–16 (either) |
+| Sazae Fuguta _(no entry yet)_ | stopped in R2 (E0011) | R2 E0011 ✝ vs Golgo 13 | 1 (must survive) |
 | Shinji Ikari _(no entry yet)_ | in play | R1 E0010 ✓ vs Misae Nohara | 2–16 (either) |
 | Soldier B | stopped in R1 (E0002) | R1 E0002 ✝ vs Orange | — (full) |
 | Third-String Catcher | stopped in R2 (E0003) | R2 E0003 ✝ vs Orange | 1 (must survive) |
@@ -69,13 +71,14 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | [E0008](entries/encounters/E0008-three-days.md) | 6 | Three Days | Kino vs Ginko | Ginko | under review (0/5) |
 | [E0009](entries/encounters/E0009-the-number.md) | 6 | The Number | Ryuk vs Mikami Teru | Mikami Teru | under review (0/5) |
 | [E0010](entries/encounters/E0010-the-stairs-on-the-wrong-side.md) | 1 | The Stairs on the Wrong Side | Misae Nohara vs Shinji Ikari | Misae Nohara | under review (0/5) |
+| [E0011](entries/encounters/E0011-the-long-way-round-the-table.md) | 2 | The Long Way Round the Table | Sazae Fuguta vs Golgo 13 | Sazae Fuguta | under review (0/5) |
 
 ## Rounds
 
 | Round | Entrants | Rooms | Written |
 |-------|----------|-------|---------|
 | 1 | 1,048,576 | 524,288 | 3 (E0001, E0002, E0010) |
-| 2 | 524,288 | 262,144 | 1 (E0003) |
+| 2 | 524,288 | 262,144 | 2 (E0003, E0011) |
 | 3 | 262,144 | 131,072 | 1 (E0004) |
 | 4 | 131,072 | 65,536 | 1 (E0005) |
 | 5 | 65,536 | 32,768 | 0 |

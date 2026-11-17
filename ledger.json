@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0011",
+  "nextEncounterId": "E0012",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -347,6 +347,89 @@
       "full": false,
       "hasEntry": false,
       "url": "characters/ginko/"
+    },
+    {
+      "name": "Golgo 13",
+      "slug": "golgo-13",
+      "aliases": [],
+      "source": "Golgo 13 (the sniper for hire, who gives his name as Duke Togo)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0011",
+          "outcome": "survived",
+          "opponent": "Sazae Fuguta"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/golgo-13/"
     },
     {
       "name": "Inspector Zenigata",
@@ -1005,6 +1088,33 @@
       "url": "characters/ryuk/"
     },
     {
+      "name": "Sazae Fuguta",
+      "slug": "sazae-fuguta",
+      "aliases": [],
+      "source": "Sazae-san (the eldest daughter of the Isono house; twenty-four years old every Sunday evening since 1969)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 2,
+      "stoppedIn": "E0011",
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0011",
+          "outcome": "stopped",
+          "opponent": "Golgo 13"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/sazae-fuguta/"
+    },
+    {
       "name": "Shinji Ikari",
       "slug": "shinji-ikari",
       "aliases": [],
@@ -1349,6 +1459,27 @@
       },
       "file": "entries/encounters/E0010-the-stairs-on-the-wrong-side.md",
       "url": "encounters/e0010/"
+    },
+    {
+      "id": "E0011",
+      "title": "The Long Way Round the Table",
+      "round": 2,
+      "characters": [
+        "Sazae Fuguta",
+        "Golgo 13"
+      ],
+      "stopped": "Sazae Fuguta",
+      "survived": "Golgo 13",
+      "author": "Maren Itoh",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0011-the-long-way-round-the-table.md",
+      "url": "encounters/e0011/"
     }
   ],
   "rounds": [
@@ -1367,9 +1498,10 @@
       "round": 2,
       "entrants": 524288,
       "rooms": 262144,
-      "written": 1,
+      "written": 2,
       "encounters": [
-        "E0003"
+        "E0003",
+        "E0011"
       ]
     },
     {
