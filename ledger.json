@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0017",
+  "nextEncounterId": "E0018",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -1278,6 +1278,89 @@
       "url": "characters/misae-nohara/"
     },
     {
+      "name": "Mumen Rider",
+      "slug": "mumen-rider",
+      "aliases": [],
+      "source": "One-Punch Man (the hero who rides a bicycle, and wants to be strong)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 13,
+          "id": "E0017",
+          "outcome": "survived",
+          "opponent": "Saitama"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        },
+        {
+          "round": 11,
+          "mustSurvive": true
+        },
+        {
+          "round": 12,
+          "mustSurvive": true
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/mumen-rider/"
+    },
+    {
       "name": "No-Face",
       "slug": "no-face",
       "aliases": [],
@@ -1476,6 +1559,77 @@
       "full": false,
       "hasEntry": false,
       "url": "characters/ryuk/"
+    },
+    {
+      "name": "Saitama",
+      "slug": "saitama",
+      "aliases": [],
+      "source": "One-Punch Man (the hero who beats anything in one punch, and is bald)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 13,
+      "stoppedIn": "E0017",
+      "encounters": [
+        {
+          "round": 13,
+          "id": "E0017",
+          "outcome": "stopped",
+          "opponent": "Mumen Rider"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 2,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": true
+        },
+        {
+          "round": 4,
+          "mustSurvive": true
+        },
+        {
+          "round": 5,
+          "mustSurvive": true
+        },
+        {
+          "round": 6,
+          "mustSurvive": true
+        },
+        {
+          "round": 7,
+          "mustSurvive": true
+        },
+        {
+          "round": 8,
+          "mustSurvive": true
+        },
+        {
+          "round": 9,
+          "mustSurvive": true
+        },
+        {
+          "round": 10,
+          "mustSurvive": true
+        },
+        {
+          "round": 11,
+          "mustSurvive": true
+        },
+        {
+          "round": 12,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/saitama/"
     },
     {
       "name": "Sazae Fuguta",
@@ -2170,6 +2324,27 @@
       },
       "file": "entries/encounters/E0016-play-dead.md",
       "url": "encounters/e0016/"
+    },
+    {
+      "id": "E0017",
+      "title": "The Push-Ups",
+      "round": 13,
+      "characters": [
+        "Saitama",
+        "Mumen Rider"
+      ],
+      "stopped": "Saitama",
+      "survived": "Mumen Rider",
+      "author": "R. J. Halloran",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0017-the-push-ups.md",
+      "url": "encounters/e0017/"
     }
   ],
   "rounds": [
@@ -2284,8 +2459,10 @@
       "round": 13,
       "entrants": 256,
       "rooms": 128,
-      "written": 0,
-      "encounters": []
+      "written": 1,
+      "encounters": [
+        "E0017"
+      ]
     },
     {
       "round": 14,

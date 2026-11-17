@@ -5,8 +5,8 @@
 
 - Entrants: **1,048,576** (20 rounds in total)
 - The Timeline: **Rounds 1–16**. The survivors of Round 16 are the Sixteen.
-- Encounters in canon: **16** · Characters on record: **31** · Deprecated: **0**
-- Next accession number: **E0017**
+- Encounters in canon: **17** · Characters on record: **33** · Deprecated: **0**
+- Next accession number: **E0018**
 
 ## The Sixteen (3 named, 13 unclaimed)
 
@@ -55,9 +55,11 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Meruem _(no entry yet)_ | in play | R6 E0006 ✓ vs Fujiwara no Sai | 1–5 (must survive); 7–16 (either) |
 | Mikami Teru _(no entry yet)_ | stopped in R6 (E0009) | R6 E0009 ✝ vs Ryuk | 1–5 (must survive) |
 | Misae Nohara _(no entry yet)_ | stopped in R1 (E0010) | R1 E0010 ✝ vs Shinji Ikari | — (full) |
+| Mumen Rider _(no entry yet)_ | in play | R13 E0017 ✓ vs Saitama | 1–12 (must survive); 14–16 (either) |
 | No-Face _(no entry yet)_ | in play | R2 E0012 ✓ vs Frog Worker (Spirited Away, the bathhouse) | 1 (must survive); 3–16 (either) |
 | Orange | stopped in R3 (E0004) | R1 E0002 ✓ vs Soldier B<br>R2 E0003 ✓ vs Third-String Catcher<br>R3 E0004 ✝ vs Frieren | — (full) |
 | Ryuk _(no entry yet)_ | in play | R6 E0009 ✓ vs Mikami Teru | 1–5 (must survive); 7–16 (either) |
+| Saitama _(no entry yet)_ | stopped in R13 (E0017) | R13 E0017 ✝ vs Mumen Rider | 1–12 (must survive) |
 | Sazae Fuguta _(no entry yet)_ | stopped in R2 (E0011) | R2 E0011 ✝ vs Golgo 13 | 1 (must survive) |
 | Shinji Ikari _(no entry yet)_ | in play | R1 E0010 ✓ vs Misae Nohara | 2–16 (either) |
 | Soldier B | stopped in R1 (E0002) | R1 E0002 ✝ vs Orange | — (full) |
@@ -87,6 +89,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | [E0014](entries/encounters/E0014-the-one-by-the-well.md) | 2 | The One by the Well | Kenshiro vs Zeed Gang Member (Fist of the North Star, episode 1) | Zeed Gang Member (Fist of the North Star, episode 1) | under review (0/5) |
 | [E0015](entries/encounters/E0015-red-corner-blue-corner.md) | 1 | Red Corner, Blue Corner | Spectator, Row 3 (boxing anime crowd) vs Spectator, Row 7 (boxing anime crowd) | Spectator, Row 3 (boxing anime crowd) | under review (0/5) |
 | [E0016](entries/encounters/E0016-play-dead.md) | 3 | Play Dead | Jiji vs Ein | Ein | under review (0/5) |
+| [E0017](entries/encounters/E0017-the-push-ups.md) | 13 | The Push-Ups | Saitama vs Mumen Rider | Saitama | under review (0/5) |
 
 ## Rounds
 
@@ -104,7 +107,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | 10 | 2,048 | 1,024 | 0 |
 | 11 | 1,024 | 512 | 1 (E0013) |
 | 12 | 512 | 256 | 0 |
-| 13 | 256 | 128 | 0 |
+| 13 | 256 | 128 | 1 (E0017) |
 | 14 | 128 | 64 | 0 |
 | 15 | 64 | 32 | 0 |
 | 16 | 32 | 16 | 0 |
