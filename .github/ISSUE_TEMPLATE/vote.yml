@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        When an encounter gets its 5th vote, the median of its first 5 votes decides: **5 or more** and it stays, **under 5** and it moves to the deprecated archive.
+        Once an encounter has **5 or more votes**, the median of **all** its votes is checked after every vote. If it is ever **under 5**, the encounter moves to the deprecated archive.
         Please vote as a reader, and not on your own entries.
   - type: input
     id: encounter

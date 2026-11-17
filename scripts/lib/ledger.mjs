@@ -42,7 +42,7 @@ export function buildLedger(canon, analysis) {
         survived: state.characters.get(e.aliveSlug).name,
         author: e.author || null,
         submitted: e.submitted || null,
-        review: { status: vs.status, votes: vs.count, quorum: vs.quorum, median: vs.trialMedian },
+        review: { status: vs.status, votes: vs.count, quorum: vs.quorum, median: vs.median },
         file: e.relFile,
         url: `encounters/${e.id.toLowerCase()}/`,
       };
@@ -128,7 +128,7 @@ export function ledgerMarkdown(ledger) {
   L.push('| ID | Round | Title | Characters | Stopped | Review |');
   L.push('|----|-------|-------|------------|---------|--------|');
   for (const e of ledger.encounters) {
-    const rv = e.review.status === 'review' ? `under review (${e.review.votes}/${e.review.quorum})` : e.review.status === 'ratified' ? `ratified (median ${e.review.median})` : e.review.status;
+    const rv = e.review.status === 'review' ? `under review (${e.review.votes}/${e.review.quorum})` : e.review.status === 'standing' ? `standing (${e.review.votes} votes, median ${e.review.median})` : e.review.status;
     L.push(`| [${e.id}](${e.file}) | ${e.round} | ${e.title} | ${e.characters.join(' vs ')} | ${e.stopped} | ${rv} |`);
   }
   L.push('');

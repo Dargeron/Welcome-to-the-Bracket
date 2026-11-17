@@ -33,7 +33,7 @@ C.reviewText = (ctx, v) => {
   const q = ctx.site.config.voting.quorum;
   if (v.status === 'founding') return 'Founding text';
   if (v.status === 'review') return `Under review · ${v.count}/${q} votes`;
-  if (v.status === 'ratified') return `Ratified · median ${v.trialMedian}`;
+  if (v.status === 'standing') return `Standing · median ${v.median} of ${v.count}`;
   return 'Deprecated';
 };
 
@@ -99,10 +99,10 @@ C.voteWidget = (ctx, e) => {
   let status;
   if (v.status === 'founding') status = `This is part of the founding text and is not subject to removal. Votes are still recorded.`;
   else if (v.status === 'review')
-    status = `${v.count} of ${v.quorum} votes cast. When the ${ordinal(v.quorum)} vote arrives, the entry stays if the median of the first ${v.quorum} is ${config.voting.removeIfMedianBelow} or higher, and is moved to the deprecated archive if it is lower.`;
-  else status = `Passed review with a median of ${v.trialMedian} from the first ${v.quorum} votes. Later votes are recorded but don't change its place.`;
+    status = `${v.count} of ${v.quorum} votes cast. From the ${ordinal(v.quorum)} vote on, the median of all votes is checked after every vote: if it is ever below ${config.voting.removeIfMedianBelow}, the encounter moves to the deprecated archive.`;
+  else status = `In canon with a median of ${v.median} from ${v.count} votes. It is checked again after every vote and is removed if the median ever falls below ${config.voting.removeIfMedianBelow}.`;
   const tally = v.scores.length
-    ? `<div class="vote-tally">${v.scores.map((s, i) => `<span class="vt ${i < v.quorum ? 'vt-trial' : ''}" title="vote ${i + 1}">${s}</span>`).join('')}</div>`
+    ? `<div class="vote-tally">${v.scores.map((s, i) => `<span class="vt" title="vote ${i + 1}">${s}</span>`).join('')}</div>`
     : '';
   return `<section class="vote" id="vote">
     <h2>Rate this encounter</h2>

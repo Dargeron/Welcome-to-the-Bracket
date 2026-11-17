@@ -99,22 +99,22 @@ export function loadSubmissions() {
 export function voteSummary(config, enc, voteFile) {
   const votes = voteFile?.votes ?? [];
   const q = config.voting.quorum;
+  // The median of ALL votes is checked after every vote. Once there are at
+  // least `quorum` votes, the encounter is deprecated the moment that median
+  // drops below the threshold. Nothing is ever permanently safe.
   const scores = votes.map((v) => v.score);
-  const trial = scores.slice(0, q);
-  const trialMedian = trial.length >= q ? median(trial) : null;
+  const med = median(scores);
   let status;
   if (enc?.deprecated) status = 'deprecated';
   else if (enc?.founding) status = 'founding';
-  else if (trial.length < q) status = 'review';
-  else if (trialMedian < config.voting.removeIfMedianBelow) status = 'deprecated';
-  else status = 'ratified';
+  else if (scores.length < q) status = 'review';
+  else if (med < config.voting.removeIfMedianBelow) status = 'deprecated';
+  else status = 'standing';
   return {
     count: votes.length,
     quorum: q,
     scores,
-    trialScores: trial,
-    trialMedian,
-    overallMedian: median(scores),
+    median: med,
     status,
   };
 }

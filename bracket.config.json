@@ -21,6 +21,6 @@
     "maxChars": 120000
   },
 
-  "themes": ["dossier", "wiki", "broadcast"],
-  "defaultTheme": null
+  "themes": ["broadcast"],
+  "defaultTheme": "broadcast"
 }

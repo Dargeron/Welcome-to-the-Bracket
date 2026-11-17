@@ -129,16 +129,15 @@ if (cmd === 'issue') {
       writeFile(dest, deprecatedText(res.encounter, s));
       fs.rmSync(res.encounter.file);
       message +=
-        `That was vote ${config.voting.quorum} of ${config.voting.quorum}. The median of the first ${config.voting.quorum} votes ` +
-        `(${s.trialScores.join(', ')}) is **${s.trialMedian}**, under ${config.voting.removeIfMedianBelow}, so ${res.id} has been ` +
-        `moved to the deprecated archive. Its rounds are open again.`;
-      commitMessage = `Deprecate ${res.id} by vote (median ${s.trialMedian}) — closes #${issue.number}`;
+        `With ${s.count} votes (${s.scores.join(', ')}) the median is now **${s.median}**, under ${config.voting.removeIfMedianBelow}, ` +
+        `so ${res.id} has been moved to the deprecated archive. Its rounds are open again.`;
+      commitMessage = `Deprecate ${res.id} by vote (median ${s.median} of ${s.count}) — closes #${issue.number}`;
     } else if (s.status === 'review') {
-      message += `${s.count} of ${config.voting.quorum} votes are in.`;
-    } else if (s.count === config.voting.quorum && s.status === 'ratified') {
-      message += `That completed the review: median **${s.trialMedian}**. ${res.id} stays in the archive.`;
+      message += `${s.count} of ${config.voting.quorum} votes are in. From the ${config.voting.quorum}th vote on, the encounter is removed whenever the median of all its votes is under ${config.voting.removeIfMedianBelow}.`;
+    } else if (s.status === 'standing') {
+      message += `With ${s.count} votes the median is **${s.median}**, so ${res.id} stays in canon for now. It is checked again after every vote.`;
     } else {
-      message += `${res.id} has already passed review; your score is recorded and shown on the page.`;
+      message += `Your score is recorded.`;
     }
     finish({ kind, ok: true, id: res.id, commitMessage, message: message + FOOTER });
   }

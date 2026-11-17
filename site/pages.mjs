@@ -207,7 +207,7 @@ export function allPages(site) {
     title: 'Deprecated entries',
     nav: 'deprecated',
     description: 'Encounters removed from canon by vote.',
-    body: (ctx) => `<header class="page-head"><h1>Deprecated entries</h1><p class="lede">When an encounter's first ${config.voting.quorum} votes have a median below ${config.voting.removeIfMedianBelow}, it leaves canon and is kept here. Deprecated entries bind nothing: the rounds they used are open again, and the deaths they described did not happen.</p></header>
+    body: (ctx) => `<header class="page-head"><h1>Deprecated entries</h1><p class="lede">Once an encounter has at least ${config.voting.quorum} votes, it leaves canon the moment the median of all its votes falls below ${config.voting.removeIfMedianBelow}, and is kept here. Deprecated entries bind nothing: the rounds they used are open again, and the deaths they described did not happen.</p></header>
       ${site.deprecated.length ? `<ul class="dep-list">${site.deprecated.map((e) => `<li><a href="${ctx.href(e.path)}">${esc(e.id)}: ${esc(e.title)}</a> <span class="muted">Round ${e.round} · median ${e.deprecated?.median ?? '?'}</span></li>`).join('')}</ul>` : '<p class="muted">Nothing has been deprecated.</p>'}`,
   });
 
@@ -218,7 +218,7 @@ export function allPages(site) {
       nav: 'deprecated',
       description: 'A deprecated encounter. Not canon.',
       crumbs: [['Deprecated', 'deprecated/'], [e.id, null]],
-      body: (ctx) => `<div class="dep-banner"><strong>Deprecated.</strong> This encounter was removed from canon by vote${e.deprecated?.votes ? ` (first ${e.deprecated.votes.length} votes: ${e.deprecated.votes.join(', ')}; median ${e.deprecated.median})` : ''}. Nothing in it is binding.</div>
+      body: (ctx) => `<div class="dep-banner"><strong>Deprecated.</strong> This encounter was removed from canon by vote${e.deprecated?.votes ? ` (${e.deprecated.votes.length} votes: ${e.deprecated.votes.join(', ')}; median ${e.deprecated.median})` : ''}. Nothing in it is binding.</div>
         <header class="page-head"><div class="kicker">${esc(e.id)} · Round ${esc(e.round)}</div><h1>${esc(e.title)}</h1><p class="muted">${e.characters.map((c) => esc(c.name)).join(' and ')} · ${esc(e.died)} stopped${e.author ? ` · by ${esc(e.author)}` : ''}</p></header>
         <article class="prose enc-body">${ctx.md(e.body)}</article>
         ${ctx.c.sourceLinks(ctx, e.relFile)}`,

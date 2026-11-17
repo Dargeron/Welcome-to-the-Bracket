@@ -59,7 +59,7 @@ h2.sec, .connections h2, .vote h2, .history h2, .open-rounds h2, .backlinks h2, 
 select { background: var(--surface-2); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; }
 
 .chip { display: inline-block; font: 600 11px/1.6 var(--font-ui); letter-spacing: .08em; text-transform: uppercase; padding: 1px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
-.chip-sixteen, .chip-ratified { color: var(--accent); border-color: rgba(255, 138, 31, .5); }
+.chip-sixteen, .chip-standing { color: var(--accent); border-color: rgba(255, 138, 31, .5); }
 .chip-founding { color: #e6c58f; border-color: #6b5530; }
 .chip-stopped, .chip-deprecated { color: #8d8980; }
 .chip-in-play { color: #d9d3c6; }

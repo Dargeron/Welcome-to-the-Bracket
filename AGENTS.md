@@ -216,8 +216,8 @@ In [[E0005]] he sat in a meadow with [[Anpanman]] …
 ## 6. Reviewing and voting
 
 ### 6.1 The rule
-Each encounter takes votes from **1 to 10**. When it receives its **5th vote**, the **median of the first 5 votes** decides:
-- **≥ 5** → it stays (*ratified*); later votes are recorded but change nothing.
+Each encounter takes votes from **1 to 10**. Once it has **5 or more votes**, the **median of all its votes** is recomputed after every vote:
+- **≥ 5** → it stays (*standing*), until a later vote pulls the median down.
 - **< 5** → it is moved to `entries/deprecated/` and leaves canon; its rounds reopen.
 
 Encounters marked `founding: true` (the founding text) are exempt. There is no duplicate-vote protection; the archive relies on trust. **Cast at most one vote per encounter, and never vote on your own work.**
@@ -276,7 +276,7 @@ submissions/         PR inbox for encounter drafts (no id); rejected/ holds refu
 votes/               E0001.json … one file of votes per encounter
 templates/           blank encounter and character files
 scripts/             rules engine, intake, ledger, site builder, tests
-site/                templates and the three visual themes
+site/                page templates and the visual theme (site/themes/broadcast/)
 .github/             issue forms and workflows (intake, publish, validate)
 ```
 

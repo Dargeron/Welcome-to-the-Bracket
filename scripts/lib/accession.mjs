@@ -144,9 +144,8 @@ export function tryVote(canon, { id: rawId, score: rawScore, voter, issue, comme
   if (comment) vote.comment = String(comment).slice(0, 2000);
   const updated = { encounter: id, votes: [...current.votes, vote] };
 
-  const beforeStatus = voteSummary(config, enc, current).status;
   const after = voteSummary(config, enc, updated);
-  const deprecate = beforeStatus === 'review' && after.status === 'deprecated';
+  const deprecate = after.status === 'deprecated';
   return {
     ok: true,
     id,
@@ -162,7 +161,7 @@ export function tryVote(canon, { id: rawId, score: rawScore, voter, issue, comme
 export function deprecatedText(enc, summary, date = today()) {
   const data = {
     ...enc.raw,
-    deprecated: { date, median: summary.trialMedian, votes: summary.trialScores },
+    deprecated: { date, median: summary.median, votes: summary.scores },
   };
   return stringifyFrontMatter(data, enc.body);
 }

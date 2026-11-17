@@ -1,6 +1,6 @@
 # Processes submissions that arrive as GitHub issues:
 #   [Encounter] …  → validated against the rules, given the next accession number, filed
-#   [Vote] …       → appended to votes/; on the 5th vote, a median under 5 deprecates the entry
+#   [Vote] …       → appended to votes/; from the 5th vote on, a median of all votes under 5 deprecates the entry
 #   [Character] …  → creates or replaces a character entry
 # Then replies on the issue, closes it, and republishes the site.
 #

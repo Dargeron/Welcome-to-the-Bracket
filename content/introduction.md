@@ -88,9 +88,9 @@ All of this is checked automatically when an encounter is submitted. A submissio
 
 ## Votes
 
-At the end of every encounter there is a vote from 1 to 10. When an encounter receives its **{{quorum}}th vote**, the median of its first {{quorum}} votes decides its fate:
+At the end of every encounter there is a vote from 1 to 10. Once an encounter has **{{quorum}} or more votes**, the median of **all** its votes is checked after every new vote:
 
-- **{{threshold}} or higher**: it stays. It is ratified, and later votes are recorded but change nothing.
+- **{{threshold}} or higher**: it stays, for now. Every later vote can change that.
 - **Below {{threshold}}**: it is removed from canon and kept in the [[deprecated|deprecated archive]]. The rounds it used are open again and the death it described never happened.
 
 There is no protection against voting twice. The archive trusts you.

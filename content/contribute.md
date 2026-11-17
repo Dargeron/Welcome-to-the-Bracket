@@ -73,7 +73,7 @@ Submit with the [character entry form]({{repoUrl}}/issues/new?template=character
 
 Every encounter ends with ten buttons. Each one opens a pre-filled GitHub issue; press *Create* and the vote is counted automatically.
 
-When an encounter receives its {{quorum}}th vote, the median of its first {{quorum}} votes decides: **{{threshold}} or more** and it stays; **under {{threshold}}** and it moves to the deprecated archive, freeing its rounds. Founding-text entries are exempt.
+Once an encounter has {{quorum}} or more votes, the median of all its votes is checked after every vote: **{{threshold}} or more** and it stays; **under {{threshold}}**, at any point, and it moves to the deprecated archive, freeing its rounds. Founding-text entries are exempt.
 
 Vote as a reader. A suggested scale:
 

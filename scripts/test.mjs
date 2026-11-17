@@ -171,27 +171,48 @@ test('open rounds: must-survive before last appearance, either after', () => {
   assert.ok(b.open.every((o) => o.mustSurvive));
 });
 
-test('voting: the first 5 votes decide, median under 5 deprecates', () => {
+test('voting: nothing is decided before the 5th vote', () => {
   const e = enc('E0001', 1, 'A', 'B', 'B');
   let c = canon([e]);
-  const scores = [3, 4, 9, 2, 6]; // median 4
   let res;
-  for (const s of scores) {
+  for (const s of [1, 1, 1, 1]) {
     res = tryVote(c, { id: 'E0001', score: s, voter: 'v' });
-    assert.ok(res.ok);
     c = { ...c, votes: { E0001: res.voteFile } };
   }
-  assert.equal(res.summary.trialMedian, 4);
+  assert.equal(res.summary.status, 'review');
+  assert.equal(res.deprecate, false);
+});
+
+test('voting: at the 5th vote, a median under 5 deprecates', () => {
+  const e = enc('E0001', 1, 'A', 'B', 'B');
+  let c = canon([e]);
+  let res;
+  for (const s of [3, 4, 9, 2, 6]) {
+    res = tryVote(c, { id: 'E0001', score: s, voter: 'v' });
+    c = { ...c, votes: { E0001: res.voteFile } };
+  }
+  assert.equal(res.summary.median, 4);
   assert.equal(res.deprecate, true);
 });
 
-test('voting: median exactly 5 stays, and later votes change nothing', () => {
+test('voting: median exactly 5 stays standing', () => {
   const e = enc('E0001', 1, 'A', 'B', 'B');
   const votes = { E0001: { encounter: 'E0001', votes: [5, 5, 1, 9, 2].map((score) => ({ score })) } };
-  assert.equal(voteSummary(config, e, votes.E0001).status, 'ratified');
-  const r = tryVote(canon([e], [], votes), { id: 'E0001', score: 1 });
-  assert.equal(r.deprecate, false);
-  assert.equal(r.summary.status, 'ratified');
+  assert.equal(voteSummary(config, e, votes.E0001).status, 'standing');
+});
+
+test('voting: a standing entry is deprecated as soon as a later vote pulls the median under 5', () => {
+  const e = enc('E0001', 1, 'A', 'B', 'B');
+  let c = canon([e], [], { E0001: { encounter: 'E0001', votes: [6, 6, 6, 6, 6].map((score) => ({ score })) } });
+  let res;
+  for (let i = 0; i < 4; i++) {
+    res = tryVote(c, { id: 'E0001', score: 1 });
+    c = { ...c, votes: { E0001: res.voteFile } };
+    assert.equal(res.deprecate, false, `still standing after ${res.summary.count} votes (median ${res.summary.median})`);
+  }
+  res = tryVote(c, { id: 'E0001', score: 1 }); // 5 ones, 5 sixes → median 3.5
+  assert.equal(res.summary.median, 3.5);
+  assert.equal(res.deprecate, true);
 });
 
 test('founding entries are never deprecated', () => {

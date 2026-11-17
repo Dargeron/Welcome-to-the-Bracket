@@ -51,8 +51,7 @@ a:visited { color: var(--link-visited); }
 .vote-row { display: flex; flex-wrap: wrap; gap: 6px; margin: .6em 0; }
 .vote-btn { display: inline-flex; align-items: center; justify-content: center; min-width: 2.4em; height: 2.4em; text-decoration: none; font-family: var(--font-ui); font-weight: 700; }
 .vote-tally { display: flex; gap: 4px; flex-wrap: wrap; margin: .4em 0; }
-.vt { display: inline-flex; min-width: 1.8em; height: 1.8em; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: .85em; border: 1px dashed var(--line); }
-.vt-trial { border-style: solid; }
+.vt { display: inline-flex; min-width: 1.8em; height: 1.8em; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: .85em; border: 1px solid var(--line); }
 
 /* cards */
 .cards { list-style: none; padding: 0; margin: 1em 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
