@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0012",
+  "nextEncounterId": "E0013",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -261,6 +261,33 @@
       "full": false,
       "hasEntry": true,
       "url": "characters/frieren/"
+    },
+    {
+      "name": "Frog Worker (Spirited Away, the bathhouse)",
+      "slug": "frog-worker-spirited-away-the-bathhouse",
+      "aliases": [],
+      "source": "Spirited Away (the green frog-man who serves at the bathhouse and runs to the gold)",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 2,
+      "stoppedIn": "E0012",
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0012",
+          "outcome": "stopped",
+          "opponent": "No-Face"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/frog-worker-spirited-away-the-bathhouse/"
     },
     {
       "name": "Fujiwara no Sai",
@@ -971,6 +998,89 @@
       "url": "characters/misae-nohara/"
     },
     {
+      "name": "No-Face",
+      "slug": "no-face",
+      "aliases": [],
+      "source": "Spirited Away (the masked spirit who visits the bathhouse)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 2,
+          "id": "E0012",
+          "outcome": "survived",
+          "opponent": "Frog Worker (Spirited Away, the bathhouse)"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 1,
+          "mustSurvive": true
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/no-face/"
+    },
+    {
       "name": "Orange",
       "slug": "orange",
       "aliases": [],
@@ -1480,6 +1590,27 @@
       },
       "file": "entries/encounters/E0011-the-long-way-round-the-table.md",
       "url": "encounters/e0011/"
+    },
+    {
+      "id": "E0012",
+      "title": "The Frog and the Gold",
+      "round": 2,
+      "characters": [
+        "No-Face",
+        "Frog Worker (Spirited Away, the bathhouse)"
+      ],
+      "stopped": "Frog Worker (Spirited Away, the bathhouse)",
+      "survived": "No-Face",
+      "author": "Nate Sorrel",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0012-the-frog-and-the-gold.md",
+      "url": "encounters/e0012/"
     }
   ],
   "rounds": [
@@ -1498,10 +1629,11 @@
       "round": 2,
       "entrants": 524288,
       "rooms": 262144,
-      "written": 2,
+      "written": 3,
       "encounters": [
         "E0003",
-        "E0011"
+        "E0011",
+        "E0012"
       ]
     },
     {

@@ -5,8 +5,8 @@
 
 - Entrants: **1,048,576** (20 rounds in total)
 - The Timeline: **Rounds 1–16**. The survivors of Round 16 are the Sixteen.
-- Encounters in canon: **11** · Characters on record: **21** · Deprecated: **0**
-- Next accession number: **E0012**
+- Encounters in canon: **12** · Characters on record: **23** · Deprecated: **0**
+- Next accession number: **E0013**
 
 ## The Sixteen (3 named, 13 unclaimed)
 
@@ -39,6 +39,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Blank | **one of the Sixteen** | — | 1–16 (must survive) |
 | Female Student 2 | stopped in R1 (E0001) | R1 E0001 ✝ vs Light Yagami | — (full) |
 | Frieren | **one of the Sixteen** | R3 E0004 ✓ vs Orange | 1–2, 4–16 (must survive) |
+| Frog Worker (Spirited Away, the bathhouse) _(no entry yet)_ | stopped in R2 (E0012) | R2 E0012 ✝ vs No-Face | 1 (must survive) |
 | Fujiwara no Sai _(no entry yet)_ | stopped in R6 (E0006) | R6 E0006 ✝ vs Meruem | 1–5 (must survive) |
 | Ginko _(no entry yet)_ | stopped in R6 (E0008) | R6 E0008 ✝ vs Kino | 1–5 (must survive) |
 | Golgo 13 _(no entry yet)_ | in play | R2 E0011 ✓ vs Sazae Fuguta | 1 (must survive); 3–16 (either) |
@@ -50,6 +51,7 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Meruem _(no entry yet)_ | in play | R6 E0006 ✓ vs Fujiwara no Sai | 1–5 (must survive); 7–16 (either) |
 | Mikami Teru _(no entry yet)_ | stopped in R6 (E0009) | R6 E0009 ✝ vs Ryuk | 1–5 (must survive) |
 | Misae Nohara _(no entry yet)_ | stopped in R1 (E0010) | R1 E0010 ✝ vs Shinji Ikari | — (full) |
+| No-Face _(no entry yet)_ | in play | R2 E0012 ✓ vs Frog Worker (Spirited Away, the bathhouse) | 1 (must survive); 3–16 (either) |
 | Orange | stopped in R3 (E0004) | R1 E0002 ✓ vs Soldier B<br>R2 E0003 ✓ vs Third-String Catcher<br>R3 E0004 ✝ vs Frieren | — (full) |
 | Ryuk _(no entry yet)_ | in play | R6 E0009 ✓ vs Mikami Teru | 1–5 (must survive); 7–16 (either) |
 | Sazae Fuguta _(no entry yet)_ | stopped in R2 (E0011) | R2 E0011 ✝ vs Golgo 13 | 1 (must survive) |
@@ -72,13 +74,14 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | [E0009](entries/encounters/E0009-the-number.md) | 6 | The Number | Ryuk vs Mikami Teru | Mikami Teru | under review (0/5) |
 | [E0010](entries/encounters/E0010-the-stairs-on-the-wrong-side.md) | 1 | The Stairs on the Wrong Side | Misae Nohara vs Shinji Ikari | Misae Nohara | under review (0/5) |
 | [E0011](entries/encounters/E0011-the-long-way-round-the-table.md) | 2 | The Long Way Round the Table | Sazae Fuguta vs Golgo 13 | Sazae Fuguta | under review (0/5) |
+| [E0012](entries/encounters/E0012-the-frog-and-the-gold.md) | 2 | The Frog and the Gold | No-Face vs Frog Worker (Spirited Away, the bathhouse) | Frog Worker (Spirited Away, the bathhouse) | under review (0/5) |
 
 ## Rounds
 
 | Round | Entrants | Rooms | Written |
 |-------|----------|-------|---------|
 | 1 | 1,048,576 | 524,288 | 3 (E0001, E0002, E0010) |
-| 2 | 524,288 | 262,144 | 2 (E0003, E0011) |
+| 2 | 524,288 | 262,144 | 3 (E0003, E0011, E0012) |
 | 3 | 262,144 | 131,072 | 1 (E0004) |
 | 4 | 131,072 | 65,536 | 1 (E0005) |
 | 5 | 65,536 | 32,768 | 0 |
