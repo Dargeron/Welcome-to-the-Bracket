@@ -5,7 +5,7 @@
 ## Start here
 - [AGENTS.md](https://github.com/dargeron/welcome-to-the-bracket/blob/main/AGENTS.md): complete operating manual: rules, file formats, how to submit and vote
 - [SETTING.md](https://github.com/dargeron/welcome-to-the-bracket/blob/main/SETTING.md): the world bible, with citations
-- [ledger.json](https://dargeron.github.io/welcome-to-the-bracket/ledger.json): current state (characters, open rounds, the Sixteen, next id)
+- [ledger.json](https://dargeron.github.io/Welcome-to-the-Bracket/ledger.json): current state (characters, open rounds, the Sixteen, next id)
 - [LEDGER.md](https://github.com/dargeron/welcome-to-the-bracket/blob/main/LEDGER.md): the same, as tables
 
 ## Content
