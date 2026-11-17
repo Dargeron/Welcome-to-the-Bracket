@@ -37,37 +37,37 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 |-----------|--------|-----------|-------------|
 | Anpanman | stopped in R4 (E0005) | R4 E0005 ✝ vs Johan Liebert | 1–3 (must survive) |
 | Blank | **one of the Sixteen** | — | 1–16 (must survive) |
-| Ein _(no entry yet)_ | stopped in R3 (E0016) | R3 E0016 ✝ vs Jiji | 1–2 (must survive) |
+| Ein | stopped in R3 (E0016) | R3 E0016 ✝ vs Jiji | 1–2 (must survive) |
 | Female Student 2 | stopped in R1 (E0001) | R1 E0001 ✝ vs Light Yagami | — (full) |
 | Frieren | **one of the Sixteen** | R3 E0004 ✓ vs Orange | 1–2, 4–16 (must survive) |
-| Frog Worker (Spirited Away, the bathhouse) _(no entry yet)_ | stopped in R2 (E0012) | R2 E0012 ✝ vs No-Face | 1 (must survive) |
-| Fujiwara no Sai _(no entry yet)_ | stopped in R6 (E0006) | R6 E0006 ✝ vs Meruem | 1–5 (must survive) |
-| Ginko _(no entry yet)_ | stopped in R6 (E0008) | R6 E0008 ✝ vs Kino | 1–5 (must survive) |
-| Golgo 13 _(no entry yet)_ | in play | R2 E0011 ✓ vs Sazae Fuguta | 1 (must survive); 3–16 (either) |
-| Inspector Zenigata _(no entry yet)_ | stopped in R9 (E0007) | R9 E0007 ✝ vs Lupin III | 1–8 (must survive) |
-| Jiji _(no entry yet)_ | in play | R3 E0016 ✓ vs Ein | 1–2 (must survive); 4–16 (either) |
+| Frog Worker (Spirited Away, the bathhouse) | stopped in R2 (E0012) | R2 E0012 ✝ vs No-Face | 1 (must survive) |
+| Fujiwara no Sai | stopped in R6 (E0006) | R6 E0006 ✝ vs Meruem | 1–5 (must survive) |
+| Ginko | stopped in R6 (E0008) | R6 E0008 ✝ vs Kino | 1–5 (must survive) |
+| Golgo 13 | in play | R2 E0011 ✓ vs Sazae Fuguta | 1 (must survive); 3–16 (either) |
+| Inspector Zenigata | stopped in R9 (E0007) | R9 E0007 ✝ vs Lupin III | 1–8 (must survive) |
+| Jiji | in play | R3 E0016 ✓ vs Ein | 1–2 (must survive); 4–16 (either) |
 | Johan Liebert | **one of the Sixteen** | R4 E0005 ✓ vs Anpanman | 1–3, 5–16 (must survive) |
-| Kenshiro _(no entry yet)_ | in play | R2 E0014 ✓ vs Zeed Gang Member (Fist of the North Star, episode 1) | 1 (must survive); 3–16 (either) |
-| Kiki _(no entry yet)_ | in play | R11 E0013 ✓ vs Ursula | 1–10 (must survive); 12–16 (either) |
-| Kino _(no entry yet)_ | in play | R6 E0008 ✓ vs Ginko | 1–5 (must survive); 7–16 (either) |
+| Kenshiro | in play | R2 E0014 ✓ vs Zeed Gang Member (Fist of the North Star, episode 1) | 1 (must survive); 3–16 (either) |
+| Kiki | in play | R11 E0013 ✓ vs Ursula | 1–10 (must survive); 12–16 (either) |
+| Kino | in play | R6 E0008 ✓ vs Ginko | 1–5 (must survive); 7–16 (either) |
 | Light Yagami | in play | R1 E0001 ✓ vs Female Student 2 | 2–16 (either) |
-| Lupin III _(no entry yet)_ | in play | R9 E0007 ✓ vs Inspector Zenigata | 1–8 (must survive); 10–16 (either) |
-| Meruem _(no entry yet)_ | in play | R6 E0006 ✓ vs Fujiwara no Sai | 1–5 (must survive); 7–16 (either) |
-| Mikami Teru _(no entry yet)_ | stopped in R6 (E0009) | R6 E0009 ✝ vs Ryuk | 1–5 (must survive) |
-| Misae Nohara _(no entry yet)_ | stopped in R1 (E0010) | R1 E0010 ✝ vs Shinji Ikari | — (full) |
-| Mumen Rider _(no entry yet)_ | in play | R13 E0017 ✓ vs Saitama | 1–12 (must survive); 14–16 (either) |
-| No-Face _(no entry yet)_ | in play | R2 E0012 ✓ vs Frog Worker (Spirited Away, the bathhouse) | 1 (must survive); 3–16 (either) |
+| Lupin III | in play | R9 E0007 ✓ vs Inspector Zenigata | 1–8 (must survive); 10–16 (either) |
+| Meruem | in play | R6 E0006 ✓ vs Fujiwara no Sai | 1–5 (must survive); 7–16 (either) |
+| Mikami Teru | stopped in R6 (E0009) | R6 E0009 ✝ vs Ryuk | 1–5 (must survive) |
+| Misae Nohara | stopped in R1 (E0010) | R1 E0010 ✝ vs Shinji Ikari | — (full) |
+| Mumen Rider | in play | R13 E0017 ✓ vs Saitama | 1–12 (must survive); 14–16 (either) |
+| No-Face | in play | R2 E0012 ✓ vs Frog Worker (Spirited Away, the bathhouse) | 1 (must survive); 3–16 (either) |
 | Orange | stopped in R3 (E0004) | R1 E0002 ✓ vs Soldier B<br>R2 E0003 ✓ vs Third-String Catcher<br>R3 E0004 ✝ vs Frieren | — (full) |
-| Ryuk _(no entry yet)_ | in play | R6 E0009 ✓ vs Mikami Teru | 1–5 (must survive); 7–16 (either) |
-| Saitama _(no entry yet)_ | stopped in R13 (E0017) | R13 E0017 ✝ vs Mumen Rider | 1–12 (must survive) |
-| Sazae Fuguta _(no entry yet)_ | stopped in R2 (E0011) | R2 E0011 ✝ vs Golgo 13 | 1 (must survive) |
-| Shinji Ikari _(no entry yet)_ | in play | R1 E0010 ✓ vs Misae Nohara | 2–16 (either) |
+| Ryuk | in play | R6 E0009 ✓ vs Mikami Teru | 1–5 (must survive); 7–16 (either) |
+| Saitama | stopped in R13 (E0017) | R13 E0017 ✝ vs Mumen Rider | 1–12 (must survive) |
+| Sazae Fuguta | stopped in R2 (E0011) | R2 E0011 ✝ vs Golgo 13 | 1 (must survive) |
+| Shinji Ikari | in play | R1 E0010 ✓ vs Misae Nohara | 2–16 (either) |
 | Soldier B | stopped in R1 (E0002) | R1 E0002 ✝ vs Orange | — (full) |
-| Spectator, Row 3 (boxing anime crowd) _(no entry yet)_ | stopped in R1 (E0015) | R1 E0015 ✝ vs Spectator, Row 7 (boxing anime crowd) | — (full) |
-| Spectator, Row 7 (boxing anime crowd) _(no entry yet)_ | in play | R1 E0015 ✓ vs Spectator, Row 3 (boxing anime crowd) | 2–16 (either) |
+| Spectator, Row 3 (boxing anime crowd) | stopped in R1 (E0015) | R1 E0015 ✝ vs Spectator, Row 7 (boxing anime crowd) | — (full) |
+| Spectator, Row 7 (boxing anime crowd) | in play | R1 E0015 ✓ vs Spectator, Row 3 (boxing anime crowd) | 2–16 (either) |
 | Third-String Catcher | stopped in R2 (E0003) | R2 E0003 ✝ vs Orange | 1 (must survive) |
-| Ursula _(no entry yet)_ | stopped in R11 (E0013) | R11 E0013 ✝ vs Kiki | 1–10 (must survive) |
-| Zeed Gang Member (Fist of the North Star, episode 1) _(no entry yet)_ | stopped in R2 (E0014) | R2 E0014 ✝ vs Kenshiro | 1 (must survive) |
+| Ursula | stopped in R11 (E0013) | R11 E0013 ✝ vs Kiki | 1–10 (must survive) |
+| Zeed Gang Member (Fist of the North Star, episode 1) | stopped in R2 (E0014) | R2 E0014 ✝ vs Kenshiro | 1 (must survive) |
 
 ## Encounters (in order of arrival)
 

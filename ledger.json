@@ -185,7 +185,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/ein/"
     },
     {
@@ -317,13 +317,15 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/frog-worker-spirited-away-the-bathhouse/"
     },
     {
       "name": "Fujiwara no Sai",
       "slug": "fujiwara-no-sai",
-      "aliases": [],
+      "aliases": [
+        "Sai"
+      ],
       "source": "Hikaru no Go",
       "status": "stopped",
       "sixteen": null,
@@ -360,7 +362,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/fujiwara-no-sai/"
     },
     {
@@ -403,13 +405,15 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/ginko/"
     },
     {
       "name": "Golgo 13",
       "slug": "golgo-13",
-      "aliases": [],
+      "aliases": [
+        "Duke Togo"
+      ],
       "source": "Golgo 13 (the sniper for hire, who gives his name as Duke Togo)",
       "status": "in-play",
       "sixteen": null,
@@ -486,13 +490,16 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/golgo-13/"
     },
     {
       "name": "Inspector Zenigata",
       "slug": "inspector-zenigata",
-      "aliases": [],
+      "aliases": [
+        "Zenigata",
+        "Koichi Zenigata"
+      ],
       "source": "Lupin the Third (Koichi Zenigata of the ICPO, who has been trying to arrest him since 1971)",
       "status": "stopped",
       "sixteen": null,
@@ -541,7 +548,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/inspector-zenigata/"
     },
     {
@@ -624,7 +631,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/jiji/"
     },
     {
@@ -792,7 +799,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/kenshiro/"
     },
     {
@@ -875,7 +882,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/kiki/"
     },
     {
@@ -958,7 +965,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/kino/"
     },
     {
@@ -1049,7 +1056,9 @@
     {
       "name": "Lupin III",
       "slug": "lupin-iii",
-      "aliases": [],
+      "aliases": [
+        "Lupin"
+      ],
       "source": "Lupin the Third (the thief, grandson of Arsène Lupin)",
       "status": "in-play",
       "sixteen": null,
@@ -1126,7 +1135,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/lupin-iii/"
     },
     {
@@ -1209,13 +1218,15 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/meruem/"
     },
     {
       "name": "Mikami Teru",
       "slug": "mikami-teru",
-      "aliases": [],
+      "aliases": [
+        "Teru Mikami"
+      ],
       "source": "Death Note (the man who wrote names for Kira and believed in him)",
       "status": "stopped",
       "sixteen": null,
@@ -1252,13 +1263,15 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/mikami-teru/"
     },
     {
       "name": "Misae Nohara",
       "slug": "misae-nohara",
-      "aliases": [],
+      "aliases": [
+        "Misae"
+      ],
       "source": "Crayon Shin-chan",
       "status": "stopped",
       "sixteen": null,
@@ -1274,7 +1287,7 @@
       ],
       "openRounds": [],
       "full": true,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/misae-nohara/"
     },
     {
@@ -1357,13 +1370,15 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/mumen-rider/"
     },
     {
       "name": "No-Face",
       "slug": "no-face",
-      "aliases": [],
+      "aliases": [
+        "Kaonashi"
+      ],
       "source": "Spirited Away (the masked spirit who visits the bathhouse)",
       "status": "in-play",
       "sixteen": null,
@@ -1440,7 +1455,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/no-face/"
     },
     {
@@ -1557,7 +1572,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/ryuk/"
     },
     {
@@ -1628,13 +1643,15 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/saitama/"
     },
     {
       "name": "Sazae Fuguta",
       "slug": "sazae-fuguta",
-      "aliases": [],
+      "aliases": [
+        "Sazae"
+      ],
       "source": "Sazae-san (the eldest daughter of the Isono house; twenty-four years old every Sunday evening since 1969)",
       "status": "stopped",
       "sixteen": null,
@@ -1655,13 +1672,15 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/sazae-fuguta/"
     },
     {
       "name": "Shinji Ikari",
       "slug": "shinji-ikari",
-      "aliases": [],
+      "aliases": [
+        "Shinji"
+      ],
       "source": "Neon Genesis Evangelion (TV series)",
       "status": "in-play",
       "sixteen": null,
@@ -1738,7 +1757,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/shinji-ikari/"
     },
     {
@@ -1784,7 +1803,7 @@
       ],
       "openRounds": [],
       "full": true,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/spectator-row-3-boxing-anime-crowd/"
     },
     {
@@ -1867,7 +1886,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/spectator-row-7-boxing-anime-crowd/"
     },
     {
@@ -1957,7 +1976,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/ursula/"
     },
     {
@@ -1984,7 +2003,7 @@
         }
       ],
       "full": false,
-      "hasEntry": false,
+      "hasEntry": true,
       "url": "characters/zeed-gang-member-fist-of-the-north-star-episode-1/"
     }
   ],
