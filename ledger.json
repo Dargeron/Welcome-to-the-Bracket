@@ -16,7 +16,7 @@
       "max": 10
     }
   },
-  "nextEncounterId": "E0010",
+  "nextEncounterId": "E0011",
   "sixteen": {
     "named": 3,
     "open": 13,
@@ -866,6 +866,28 @@
       "url": "characters/mikami-teru/"
     },
     {
+      "name": "Misae Nohara",
+      "slug": "misae-nohara",
+      "aliases": [],
+      "source": "Crayon Shin-chan",
+      "status": "stopped",
+      "sixteen": null,
+      "stoppedInRound": 1,
+      "stoppedIn": "E0010",
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0010",
+          "outcome": "stopped",
+          "opponent": "Shinji Ikari"
+        }
+      ],
+      "openRounds": [],
+      "full": true,
+      "hasEntry": false,
+      "url": "characters/misae-nohara/"
+    },
+    {
       "name": "Orange",
       "slug": "orange",
       "aliases": [],
@@ -981,6 +1003,89 @@
       "full": false,
       "hasEntry": false,
       "url": "characters/ryuk/"
+    },
+    {
+      "name": "Shinji Ikari",
+      "slug": "shinji-ikari",
+      "aliases": [],
+      "source": "Neon Genesis Evangelion (TV series)",
+      "status": "in-play",
+      "sixteen": null,
+      "stoppedInRound": null,
+      "stoppedIn": null,
+      "encounters": [
+        {
+          "round": 1,
+          "id": "E0010",
+          "outcome": "survived",
+          "opponent": "Misae Nohara"
+        }
+      ],
+      "openRounds": [
+        {
+          "round": 2,
+          "mustSurvive": false
+        },
+        {
+          "round": 3,
+          "mustSurvive": false
+        },
+        {
+          "round": 4,
+          "mustSurvive": false
+        },
+        {
+          "round": 5,
+          "mustSurvive": false
+        },
+        {
+          "round": 6,
+          "mustSurvive": false
+        },
+        {
+          "round": 7,
+          "mustSurvive": false
+        },
+        {
+          "round": 8,
+          "mustSurvive": false
+        },
+        {
+          "round": 9,
+          "mustSurvive": false
+        },
+        {
+          "round": 10,
+          "mustSurvive": false
+        },
+        {
+          "round": 11,
+          "mustSurvive": false
+        },
+        {
+          "round": 12,
+          "mustSurvive": false
+        },
+        {
+          "round": 13,
+          "mustSurvive": false
+        },
+        {
+          "round": 14,
+          "mustSurvive": false
+        },
+        {
+          "round": 15,
+          "mustSurvive": false
+        },
+        {
+          "round": 16,
+          "mustSurvive": false
+        }
+      ],
+      "full": false,
+      "hasEntry": false,
+      "url": "characters/shinji-ikari/"
     },
     {
       "name": "Soldier B",
@@ -1223,6 +1328,27 @@
       },
       "file": "entries/encounters/E0009-the-number.md",
       "url": "encounters/e0009/"
+    },
+    {
+      "id": "E0010",
+      "title": "The Stairs on the Wrong Side",
+      "round": 1,
+      "characters": [
+        "Misae Nohara",
+        "Shinji Ikari"
+      ],
+      "stopped": "Misae Nohara",
+      "survived": "Shinji Ikari",
+      "author": "Agnes Wilmot",
+      "submitted": "2026-11-17",
+      "review": {
+        "status": "review",
+        "votes": 0,
+        "quorum": 5,
+        "median": null
+      },
+      "file": "entries/encounters/E0010-the-stairs-on-the-wrong-side.md",
+      "url": "encounters/e0010/"
     }
   ],
   "rounds": [
@@ -1230,10 +1356,11 @@
       "round": 1,
       "entrants": 1048576,
       "rooms": 524288,
-      "written": 2,
+      "written": 3,
       "encounters": [
         "E0001",
-        "E0002"
+        "E0002",
+        "E0010"
       ]
     },
     {

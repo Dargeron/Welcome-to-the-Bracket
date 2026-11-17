@@ -5,8 +5,8 @@
 
 - Entrants: **1,048,576** (20 rounds in total)
 - The Timeline: **Rounds 1–16**. The survivors of Round 16 are the Sixteen.
-- Encounters in canon: **9** · Characters on record: **17** · Deprecated: **0**
-- Next accession number: **E0010**
+- Encounters in canon: **10** · Characters on record: **19** · Deprecated: **0**
+- Next accession number: **E0011**
 
 ## The Sixteen (3 named, 13 unclaimed)
 
@@ -48,8 +48,10 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | Lupin III _(no entry yet)_ | in play | R9 E0007 ✓ vs Inspector Zenigata | 1–8 (must survive); 10–16 (either) |
 | Meruem _(no entry yet)_ | in play | R6 E0006 ✓ vs Fujiwara no Sai | 1–5 (must survive); 7–16 (either) |
 | Mikami Teru _(no entry yet)_ | stopped in R6 (E0009) | R6 E0009 ✝ vs Ryuk | 1–5 (must survive) |
+| Misae Nohara _(no entry yet)_ | stopped in R1 (E0010) | R1 E0010 ✝ vs Shinji Ikari | — (full) |
 | Orange | stopped in R3 (E0004) | R1 E0002 ✓ vs Soldier B<br>R2 E0003 ✓ vs Third-String Catcher<br>R3 E0004 ✝ vs Frieren | — (full) |
 | Ryuk _(no entry yet)_ | in play | R6 E0009 ✓ vs Mikami Teru | 1–5 (must survive); 7–16 (either) |
+| Shinji Ikari _(no entry yet)_ | in play | R1 E0010 ✓ vs Misae Nohara | 2–16 (either) |
 | Soldier B | stopped in R1 (E0002) | R1 E0002 ✝ vs Orange | — (full) |
 | Third-String Catcher | stopped in R2 (E0003) | R2 E0003 ✝ vs Orange | 1 (must survive) |
 
@@ -66,12 +68,13 @@ Open rounds are rounds with no encounter yet. **must survive** = the character i
 | [E0007](entries/encounters/E0007-pending-transfer.md) | 9 | Pending Transfer | Lupin III vs Inspector Zenigata | Inspector Zenigata | under review (0/5) |
 | [E0008](entries/encounters/E0008-three-days.md) | 6 | Three Days | Kino vs Ginko | Ginko | under review (0/5) |
 | [E0009](entries/encounters/E0009-the-number.md) | 6 | The Number | Ryuk vs Mikami Teru | Mikami Teru | under review (0/5) |
+| [E0010](entries/encounters/E0010-the-stairs-on-the-wrong-side.md) | 1 | The Stairs on the Wrong Side | Misae Nohara vs Shinji Ikari | Misae Nohara | under review (0/5) |
 
 ## Rounds
 
 | Round | Entrants | Rooms | Written |
 |-------|----------|-------|---------|
-| 1 | 1,048,576 | 524,288 | 2 (E0001, E0002) |
+| 1 | 1,048,576 | 524,288 | 3 (E0001, E0002, E0010) |
 | 2 | 524,288 | 262,144 | 1 (E0003) |
 | 3 | 262,144 | 131,072 | 1 (E0004) |
 | 4 | 131,072 | 65,536 | 1 (E0005) |
